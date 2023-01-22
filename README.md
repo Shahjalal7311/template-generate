@@ -1,5 +1,3 @@
-# dai-ichi-life
-
 
 
 ## Getting started
@@ -54,23 +52,6 @@ Every project is different, so consider which of these sections apply to yours. 
 ## Name
 Choose a self-explaining name for your project.
 
-## page link
-
-Top page(pc and sp): http://4099-37-111-206-28.ngrok.io/
-A2 page(pc and sp): http://4099-37-111-206-28.ngrok.io/a_2_reward_item_details.html
-A2 Modal page(pc and sp): http://4099-37-111-206-28.ngrok.io/a_2_reward_item_details.html
-C1 page(pc and sp): http://4099-37-111-206-28.ngrok.io/c_1_popularity_ranking.html
-D1 Page(pc and sp): http://4099-37-111-206-28.ngrok.io/d_1.html
-D3 Pages(pc and sp): http://4099-37-111-206-28.ngrok.io/d3_list_of_gifts.html
-E1 pages(pc and sp): http://4099-37-111-206-28.ngrok.io/e_1.html
-E2 pages(pc and sp): http://4099-37-111-206-28.ngrok.io/e_2.html
-Z1 pages(pc and sp): http://4099-37-111-206-28.ngrok.io/z_1.html
-Z2 pages(pc and sp): http://4099-37-111-206-28.ngrok.io/z_2.html
-Z3 pages(pc and sp): http://4099-37-111-206-28.ngrok.io/z_3.html
-Z4 pages(pc and sp): http://4099-37-111-206-28.ngrok.io/z_4.html
-Z5 pages(pc and sp): http://4099-37-111-206-28.ngrok.io/z_5.html
-Z6 pages(pc and sp): http://4099-37-111-206-28.ngrok.io/z_6.html
-
 ## Description
 Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
 
@@ -107,3 +88,6 @@ For open source projects, say how it is licensed.
 
 ## Project status
 If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+
+## Server dependency
+  - node =< 12.0.0 and  >=10.0
