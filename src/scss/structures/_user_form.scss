@@ -1,0 +1,539 @@
+/**
+* User sign up scss
+**/
+.sign-up-wrapper{
+  .content{
+    .inner-content{
+      .form_area{
+        display: flex;
+        align-items: center;
+        margin-bottom: 1.4430vw;
+        .label_area{
+          width: 12.399vw;
+          margin-right: 1.7316vw;
+          float: left;
+        }
+  
+        .form_group{
+          float: left;
+          width: 42.1356vw;
+          .input_group{
+            float: left;
+            width: 49%;
+            &.mr_right_10{
+              margin-right: 0.7215vw;
+            }
+            &.width_78{
+              width: 5.6277vw;
+            }
+            &.full_width{
+              width: 100%;
+            }
+            &.select-container{
+              width: 13.9942vw;
+              select{
+                width: 100%;
+              }
+            }
+            &.width_115{
+              width: 8.2973vw;
+            }
+            .get-zip-code{
+              height: 3.4632vw;
+              display: flex;
+              align-items: center;
+              font-size: 0.9379vw;
+              font-weight: 500;
+              letter-spacing: 0.0238vw;
+              text-align: left;
+              color: #1d2122;
+              padding-left: 1.4430vw;
+              a{
+                color: #2b6737;
+                text-decoration: underline;
+                &:hover{
+                  text-decoration: none;
+                }
+              }
+              .icon{
+                padding-left: 0.3607vw;
+              }
+            }
+            &.notification_input_area{
+              display: flex;
+              align-items: center;
+              width: 100%;
+              .form-check{
+                margin-right: 2.1645vw;
+                label{
+                  margin-left: 0.5772vw;
+                  font-size: 1.0101vw;
+                  font-weight: 500;
+                  line-height: 1.4;
+                  letter-spacing: 0.0252vw;
+                  color: #1d2122;
+                }
+              }
+            }
+          }
+          .hints-text{
+            display: inline-block;
+            padding-top: 0.4329vw;
+            font-size: 0.8658vw;
+            font-weight: 500;
+            letter-spacing: 0.0216vw;
+            text-align: left;
+            color: #1d2122;
+          }
+        }
+      }
+      .privacy-policy{
+        padding: 0.381vw 2.881vw 0 12.661vw;
+        font-size: 0.8658vw;
+        font-weight: bold;
+        line-height: 1.4;
+        letter-spacing: 0.0216vw;
+        text-align: left;
+        color: #1d2122;
+        a{
+          color: #2b6737;
+          text-decoration: underline;
+          &:hover{
+            text-decoration:none;
+          }
+        }
+      }
+      .button{
+        margin-top: 2.8860vw;
+        .btn-green{
+          margin: 0 auto;
+          width: 32.4675vw;
+          height: 3.4632vw;
+          font-size: 1.1544vw;
+          &:hover{
+            color: #2b6737;
+          }
+        }
+      }
+    }
+  }
+}
+
+/**
+* Email Confirmation scss
+**/
+.email-confirmation-wrapper{
+  .content{
+    .inner-content{
+      .cont-area{
+        .c-title{
+          font-family: 'Noto Sans JP';
+          font-size: 1.8759vw;
+          font-weight: bold;
+          letter-spacing: 0.0469vw;
+          text-align: center;
+          color: #1d2122;
+        }
+        .text{
+          margin: 2.2367vw 0 2.9581vw;
+          font-family: 'Noto Sans JP';
+          font-size: 1.0822vw;
+          font-weight: 500;
+          line-height: 1.6;
+          letter-spacing: 0.0274vw;
+          text-align: center;
+          color: #1d2122;
+          span{
+            display: block;
+            em{
+              font-family: 'Roboto';
+            }
+          }
+        }
+      }
+      .button{
+        margin-top: 2.8860vw;
+        .btn-green{
+          margin: 0 auto;
+          width: 32.4675vw;
+          height: 3.4632vw;
+          font-size: 1.1544vw;
+          &:hover{
+            color: #2b6737;
+          }
+        }
+      }
+    }
+  }
+}
+
+/**
+* sign in scss
+**/
+.sign-in-wrapper{
+  .content{
+    .inner-content{
+      .form{
+        width: 32.4675vw;
+        margin: 0 auto;
+        .form_area{
+          margin-bottom: 0.7215vw;
+          &:last-child{
+            margin: 0;
+          }
+          .form_group{
+            .password_box{
+              position: relative;
+              .icon{
+                position: absolute;
+                top: 1.1873vw;
+                right: 1.4430vw;
+                i{
+                  font-size: 1.2vw;
+                  color: #2b6737;
+                }
+              }
+            }
+          }
+        }
+        .text-area{
+          padding-top: 1.4430vw;
+          font-size: 0.9379vw;
+          font-weight: bold;
+          line-height: 1.4;
+          letter-spacing: 0.0238vw;
+          text-align: center;
+          color: #1d2122;
+          a{
+            color: #2b6737;
+            text-decoration: underline;
+            &:hover{
+              text-decoration: none;
+            }
+          }
+        }
+        .signin-button{
+          margin-top: 2.1645vw;
+          .btn-green{
+            width: 32.4675vw;
+            height: 4.1847vw;
+            margin: 0 auto;
+          }
+        }
+      }
+      .signin-link{
+        margin-top: 2.1645vw;
+        .btn-white{
+          width: 32.4675vw;
+          height: 4.1847vw;
+          margin: 0 auto;
+        }
+      }
+    }
+  }  
+}
+
+/**
+* password reset scss
+**/
+.password-reset-wrapper{
+  .content{
+    .inner-content{
+      .form{
+        width: 32.4675vw;
+        margin: 0 auto;
+        .form_area{
+          margin-bottom: 0.7215vw;
+          &:last-child{
+            margin: 0;
+          }
+          .form_group{
+            .password_box{
+              position: relative;
+              .icon{
+                position: absolute;
+                top: 1.1873vw;
+                right: 1.4430vw;
+                i{
+                  font-size: 1.2vw;
+                  color: #2b6737;
+                }
+              }
+            }
+          }
+        }
+        .text-area{
+          padding-bottom:2.2367vw;
+          font-size: 1.0823vw;
+          font-weight: 500;
+          line-height: 1.4;
+          letter-spacing: 0.0238vw;
+          text-align: center;
+          color: #1d2122;
+          span{
+            display: block;
+          }
+        }
+        .pass-reset-button{
+          margin-top: 2.1645vw;
+          .btn-green{
+            width: 32.4675vw;
+            height: 4.1847vw;
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 767px){
+  /**
+  * User sign up scss
+  **/
+  .sign-up-wrapper{
+    .content{
+      .inner-content{
+        padding: 5.334vw 4vw 13.3334vw;
+        .form_area{
+          display: inline-block;
+          margin-bottom: 5.3334vw;
+          width: 100%;
+          .label_area{
+            width: 100%;
+            margin: 0 0 2.4vw;
+          }
+    
+          .form_group{
+            width: 100%;
+            .input_group{
+              float: left;
+              width: 48%;
+              &.mr_right_10{
+                margin-right: 2.9333vw;
+              }
+              &.width_78{
+                &:nth-of-type(1){
+                  width: 19.4667vw;
+                }
+                &:nth-of-type(2), &:nth-of-type(3){
+                  width: 29.3336vw;
+                }
+              }
+              &.full_width{
+                width: 100%;
+              }
+              &.select-container{
+                width: 50.1334vw;
+                select{
+                  width: 100%;
+                }
+              }
+              &.width_115{
+                width: 28.5333vw;
+              }
+              &.sp_width_ex{
+                display:inline;
+                width: 57%;
+                padding-left: 2.6667vw;
+                .get-zip-code{
+                  display: inherit;
+                  height: 3.4632vw;
+                  font-size: 3.4666vw;
+                  padding-left: 0;
+                  a{
+                    text-decoration: underline;
+                  }
+                  .icon{
+                    padding-left: 0.3607vw;
+                    display: inline;
+                  }
+                }
+              }
+              
+              &.notification_input_area{
+                display: inline-block;
+                width: 100%;
+                .form-check{
+                  float: left;
+                  margin-right: 8vw;
+                  margin-bottom: 4.2667vw;
+                  &:last-child{
+                    margin-bottom: 0;
+                  }
+                  label{
+                    margin-left: 2.1334vw;
+                    font-size: 3.7333vw;
+                    letter-spacing: 0.0934vw;
+                  }
+                }
+              }
+            }
+            .hints-text{
+              display: inline-block;
+              padding-top: 2.6667vw;
+              font-size: 3.4666vw;
+              letter-spacing: 0.0216vw;
+            }
+          }
+        }
+        .privacy-policy{
+          padding: 0 4vw 2.3333vw;
+          line-height: 1.6;
+          font-size: 3.4667vw;
+          letter-spacing: 0.088vw;
+          text-align: center;
+          a{
+            text-decoration: underline;
+          }
+        }
+        .button{
+          margin-top: 2.8860vw;
+          .btn-green{
+            width: 84vw;
+            height: 15.4667vw;
+            font-size: 4.2667vw;
+          }
+        }
+      }
+    }
+  }
+  /**
+  * sign in scss
+  **/
+  .sign-in-wrapper{
+    .content{
+      .inner-content{
+        padding: 5.3334vw 4vw 13.3333vw;
+        .form{
+          width: 100%;
+          .form_area{
+            margin-bottom: 4vw;
+            &:last-child{
+              margin: 0;
+            }
+            .form_group{
+              .password_box{
+                .icon{
+                  top: 3.173vw;
+                  right: 3.4430vw;
+                  i{
+                    font-size: 5.4667vw;
+                  }
+                }
+              }
+            }
+          }
+          .text-area{
+            padding-top: 6.6667vw;
+            font-size: 3.4666vw;
+          }
+          .signin-button{
+            margin-top: 8vw;
+            .btn-green{
+              width: 84vw;
+              height: 15.4667vw;
+            }
+          }
+        }
+        .signin-link{
+          margin-top: 8vw;
+          .btn-white{
+            width: 84vw;
+            height: 15.4667vw;
+          }
+        }
+      }
+    }  
+  }
+  /**
+  * SP email Confirmation scss
+  **/
+  .email-confirmation-wrapper{
+    .content{
+      .inner-content{
+        .cont-area{
+          .c-title{
+            font-size: 5.3334vw;
+            letter-spacing: 0.1333vw;
+            text-align: center;
+          }
+          .text{
+            margin: 8.5334vw 0 8.2667vw;
+            font-size: 4vw;
+            font-weight: 500;
+            line-height: 1.6;
+            text-align: left;
+            letter-spacing: 0.1013vw;
+            span{
+              display: inline;
+            }
+          }
+        }
+        .button{
+          margin-top: 8.2667vw;
+          .btn-green{
+            margin: 0 auto;
+            width: 84vw;
+            height: 15.4667vw;
+            font-size: 4.2667vw;
+            &:hover{
+              color: #2b6737;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /**
+  * sp password reset and request scss
+  **/
+
+  .password-reset-wrapper{
+    .content{
+      .inner-content{
+        .form{
+          width: 100%;
+          margin: 0 auto;
+          .form_area{
+            margin-bottom: 4vw;
+            &:last-child{
+              margin: 0;
+            }
+            .form_group{
+              .password_box{
+                .icon{
+                  top: 3.173vw;
+                  right: 3.4430vw;
+                  i{
+                    font-size: 5.4667vw;
+                  }
+                }
+              }
+            }
+          }
+          .text-area{
+            padding-bottom: 5.6vw;
+            font-size: 4vw;
+            line-height: 1.6;
+            letter-spacing: 0.1013vw;
+            text-align: left;
+            span{
+              display: inline;
+            }
+          }
+          .pass-reset-button{
+            margin-top: 8vw;
+            .btn-green{
+              width: 84vw;
+              height: 15.4667vw;
+              margin: 0 auto;
+            }
+          }
+        }
+      }
+    }
+  }
+}

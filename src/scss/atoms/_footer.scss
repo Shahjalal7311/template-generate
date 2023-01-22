@@ -1,0 +1,99 @@
+.footer-wrapper{
+  padding: 8.053vw 0 7.98vw;
+  background-color: #0b1619;
+  .footer-service{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .footer-service-logo{
+      a{
+        img{
+          width: 10.835vw;
+          height: 2.05vw;
+        }
+      }
+      .copyright{
+        margin: 1.32vw 0 0;
+        font-family: 'Noto Sans JP';
+        font-size: 0.81vw;
+        font-weight: 500;
+        letter-spacing: 0.021vw;
+        text-align: left;
+        color: rgba(255, 255, 255, 0.4);
+      }
+    }
+    .footer-service-content{
+      .footer-nav{
+        float: left;
+        width: 10.84vw;
+        &:last-child{
+          float: right;
+          margin-left: 8.79vw;
+        }
+        .list{
+          li{
+            margin-bottom: 1.47vw;
+            a{
+              font-family: 'Noto Sans JP';
+              font-size: 0.951vw;
+              font-weight: 500;
+              letter-spacing: 0.0242vw;
+              text-align: left;
+              color: rgba(255, 255, 255, 0.5);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px){
+  .footer-wrapper{
+    padding: 10.6666vw 0 0;
+    background-color: #0b1619;
+    .footer-service{
+      display: inline-block;
+      margin-bottom: 16vw;
+      width: 100%;
+      .footer-service-logo{
+        padding: 0 0 10.6666vw;
+        display: inline-block;
+        a{
+          img{
+            width: 39.4666vw;
+            height: 7.4667vw;
+          }
+        }
+      }
+      .footer-service-content{
+        .footer-nav{
+          float: left;
+          width: 39.1333vw;
+          &:last-child{
+            float: right;
+            margin-left: 8.79vw;
+          }
+          .list{
+            li{
+              margin-bottom: 5.3333vw;
+              a{
+                font-size: 3.4667vw;
+                font-weight: 500;
+                letter-spacing: 0.0880vw;
+              }
+            }
+          }
+        }
+      }
+    }
+    .copyright{
+      padding: 0 0 8.2667vw;
+      font-size: 2.9333vw;
+      font-weight: 500;
+      letter-spacing: 0.07466vw;
+      text-align: left;
+      color: rgba(255, 255, 255, 0.4);
+    }
+  }
+}

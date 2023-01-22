@@ -1,0 +1,267 @@
+.member-information-wrapper{
+  .content{
+    .inner-content{
+      padding: 3.6075vw 4.9784vw 3.6075vw;
+      border-radius: 0.2165vw;
+      .member-information-cont{
+        display: inline-block;
+        width: 100%;
+        .left_part{
+          width: 50%;
+          float: left;
+          &:first-child{
+            border-right: 0.0722vw solid #2b6737;
+          }
+          &:last-child{
+            padding-left: 3.6075vw;
+          }
+        }
+        .member-information{
+          .top{
+            margin-bottom: 1.4430vw;
+            h4{
+              font-family: 'Noto Sans JP';
+              font-size: 1.4430vw;
+              font-weight: bold;
+              letter-spacing: 0.0361vw;
+              text-align: left;
+              color: #1d2122;
+            }
+          }
+          .body-cont{
+            .text{
+              margin-bottom: 0.8658vw;
+              font-family: 'Roboto';
+              font-size: 1.1544vw;
+              font-weight: 500;
+              letter-spacing: 0.0289vw;
+              text-align: left;
+              color: #1d2122;
+              &:last-child{
+                margin-bottom: 0;
+              }
+              .text-style, &.font{
+                font-family: 'Noto Sans JP';
+              }
+              .line-break{
+                display: block;
+                line-height: 1.5;
+              }
+            }
+          }
+          .bottom-cont{
+            margin-top: 2.1645vw;
+            .button{
+              width: 20.2020vw;
+              .btn-green{
+                width: 100%;
+                height: 4.1847vw;
+              }
+            }
+            .text{
+              margin-top: 1.4430vw;
+              font-size: 0.9379vw;
+              font-weight: 500;
+              letter-spacing: 0.0238vw;
+              text-align: left;
+              color: #1d2122;
+              a{
+                color: #2b6737;
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/**
+* Member Information Edit scss
+**/
+.member-information-edit{
+  .content{
+    .inner-content{
+      .form{
+        .button{
+          margin-top: 2.8860vw;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          .btn-white{
+            width: 20.2020vw;
+            height: 4.1847vw;
+            margin-right: 1.4430vw;
+          }
+          .btn-green{
+            margin: 0;
+            width: 20.2020vw;
+            height: 4.1847vw;
+          }
+        }
+      }
+    }
+  }
+}
+
+/**
+* Member Information Registratin scss
+**/
+.member-information-registration{
+  .content{
+    .inner-content{
+      .form{
+        .form_area{
+          .form_group{
+            .input_group{
+              width: 100%;
+            }
+          }
+        }
+        .button{
+          margin-top: 2.8860vw;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          .btn-white{
+            width: 20.2020vw;
+            height: 4.1847vw;
+            margin-right: 1.4430vw;
+          }
+          .btn-green{
+            margin: 0;
+            width: 20.2020vw;
+            height: 4.1847vw;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px){
+  .member-information-wrapper{
+    .content{
+      .inner-content{
+        padding: 8.2667vw 4vw 16.5333vw;
+        border-radius: 0.8vw;
+        .member-information-cont{
+          display: inline-block;
+          width: 100%;
+          .left_part{
+            width: 100%;
+            float: left;
+            &:first-child{
+              padding-bottom: 8vw;
+              border-right: 0;
+              border-bottom: 0.2667vw solid #2b6737;
+            }
+            &:last-child{
+              padding-left: 0;
+              padding-top: 8vw;
+            }
+          }
+          .member-information{
+            .top{
+              margin-bottom: 5.3333vw;
+              h4{
+                font-size: 5.3333vw;
+              }
+            }
+            .body-cont{
+              .text{
+                margin-bottom: 3.2vw;
+                font-size: 4.2667vw;
+                &:last-child{
+                  margin-bottom: 0;
+                }
+                .text-style, &.font{
+                  font-family: 'Noto Sans JP';
+                }
+                .line-break{
+                  display: block;
+                  line-height: 1.5;
+                }
+              }
+            }
+            .bottom-cont{
+              margin-top: 8vw;
+              .button{
+                width: 84vw;
+                .btn-green{
+                  width: 100%;
+                  height: 15.4667vw;
+                }
+              }
+              .text{
+                margin-top: 5.3333vw;
+                font-size: 3.4667vw;
+                text-align: center;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /**
+  * Member Information Edit scss
+  **/
+  .member-information-edit{
+    .content{
+      .inner-content{
+        .form{
+          .button{
+            margin-top: 2.8860vw;
+            display: flex; 
+            flex-direction: column;
+            .btn-white{
+              order: 2;
+              width: 84vw;
+              height: 15.4667vw;
+              margin: 5.3333vw 0 0;
+            }
+            .btn-green{
+              order: 1;
+              margin: 0;
+              width: 84vw;
+              height: 15.4667vw;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /**
+* Member Information Registratin scss
+**/
+.member-information-registration{
+  .content{
+    .inner-content{
+      .form{
+        .button{
+          margin-top: 2.8860vw;
+          display: flex; 
+          flex-direction: column;
+          .btn-white{
+            order: 2;
+            width: 84vw;
+            height: 15.4667vw;
+            margin: 5.3333vw 0 0;
+          }
+          .btn-green{
+            order: 1;
+            margin: 0;
+            width: 84vw;
+            height: 15.4667vw;
+          }
+        }
+      }
+    }
+  }
+}
+
+}

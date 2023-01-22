@@ -1,0 +1,339 @@
+/*
+* scss for terms of use static page
+*/
+.terms-of-use-wrapper {
+  .content {
+    .inner-content {
+      padding: 3.6075vw 3.6075vw 7.2150vw;
+
+      .terms-of-use {
+        .terms-of-use-cont {
+          margin-bottom: 3.6075vw;
+
+          .title {
+            margin-bottom: 2.1645vw;
+
+            h4 {
+              font-size: 1.443vw;
+              font-weight: 500;
+              line-height: 1.28;
+              letter-spacing: 0.0036vw;
+              text-align: left;
+              color: rgba(29, 33, 34, 0.87);
+
+              .font_roboto {
+                font-family: 'Roboto';
+                font-size: 1.5152vw;
+                letter-spacing: 0.0382vw;
+              }
+            }
+          }
+
+          .cont {
+            .inner-tile {
+              margin-bottom: 1.5873vw;
+
+              h5 {
+                font-size: 1.1544vw;
+                font-weight: 500;
+                line-height: 1.6;
+                letter-spacing: 0.0289vw;
+                text-align: left;
+                color: rgba(29, 33, 34, 0.87);
+
+                .text-style {
+                  font-family: 'Roboto';
+                  font-size: 1.2266vw;
+                  letter-spacing: 0.0310vw;
+                }
+              }
+            }
+
+            .inner-cont {
+              display: flex;
+              flex-direction: row;
+              justify-content: left;
+              padding-left: 2.4531vw;
+              margin-bottom: 1.4430vw;
+
+              .num {
+                font-family: 'Roboto';
+                font-size: 0.9871vw;
+                line-height: 1.6;
+                letter-spacing: 0.0238vw;
+                color: rgba(29, 33, 34, 0.87);
+              }
+
+              .text {
+                p {
+                  font-size: 0.9871vw;
+                  line-height: 1.6;
+                  letter-spacing: 0.0238vw;
+                  color: rgba(29, 33, 34, 0.87);
+                }
+
+                .lists {
+                  margin-top: 1.4430vw;
+
+                  li {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: left;
+                    font-size: 0.9871vw;
+                    line-height: 1.6;
+                    letter-spacing: 0.0238vw;
+                    color: rgba(29, 33, 34, 0.87);
+                    margin-bottom: 1.5152vw;
+
+                    &:last-child {
+                      margin: 0;
+                    }
+
+                    span {
+                      font-family: 'Roboto';
+                      font-size: 0.9871vw;
+                      line-height: 1.6;
+                      letter-spacing: 0.0238vw;
+                      color: rgba(29, 33, 34, 0.87);
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .provision-info {
+        p {
+          font-size: 0.9371vw;
+          line-height: 1.6;
+          letter-spacing: 0.33px;
+          text-align: left;
+          color: rgba(29, 33, 34, 0.87);
+
+          .line-break {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}
+
+/*
+* scss for terms of use static page
+*/
+.privacy-policy-wrapper{
+  .content{
+    .inner-content{
+      padding: 3.6075vw 3.6075vw 7.2151vw;
+      .privacy-policy{
+        margin-bottom: 3.8231vw;
+        .text{
+          margin-bottom: 2.1645vw;
+          p{
+            font-size: 0.9371vw;
+            line-height: 1.6;
+            letter-spacing: 0.33px;
+            text-align: left;
+            color: rgba(29, 33, 34, 0.87);
+          }
+        }
+        .inner-cont{
+          display: flex;
+          flex-direction: row;
+          justify-content: left;
+          padding-left: 2.4531vw;
+          .num{
+            margin-right: 0.456vw;
+            font-size: 0.9371vw;
+            line-height: 1.6;
+            letter-spacing: 0.0239;
+            color: rgba(29, 33, 34, 0.87);
+          }
+          .text{
+            margin-bottom: 1.4430vw;
+            font-size: 0.9371vw;
+            line-height: 1.6;
+            letter-spacing: 0.0239vw;
+            color: rgba(29, 33, 34, 0.87);
+          }
+        }
+      }
+      .provision-info {
+        p {
+          font-size: 0.9371vw;
+          line-height: 1.6;
+          letter-spacing: 0.33px;
+          text-align: left;
+          color: rgba(29, 33, 34, 0.87);
+
+          .line-break {
+            display: block;
+          }
+        }
+      }
+      .inquries-info{
+        margin: 4.3290vw 0 0;
+        h5{
+          font-size: 1.1544vw;
+          font-weight: 500;
+          line-height: 1.6;
+          letter-spacing: 0.0289vw;
+          text-align: left;
+          color: rgba(29, 33, 34, 0.87);
+        }
+        .text{
+          margin-top: 1.4430vw;
+          font-size: 0.9371vw;
+          line-height: 1.49;
+          letter-spacing: 0.35px;
+          text-align: left;
+          color: rgba(29, 33, 34, 0.87);
+          .style-text{
+            font-family: 'Roboto';
+            font-size: 1.0101vw;
+            letter-spacing: 0.33px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  /*
+  * scss for terms and policy static page
+  */
+  .terms-of-use-wrapper {
+    .content {
+      .inner-content {
+        padding: 8vw 4vw 13.3333vw;
+
+        .terms-of-use {
+          .terms-of-use-cont {
+            margin-bottom: 13.3333vw;
+            .title {
+              margin-bottom: 8vw;
+
+              h4 {
+                font-size: 5.1333vw;
+
+                .font_roboto {
+                  font-size: 5.6vw;
+                }
+              }
+            }
+
+            .cont {
+              margin-bottom: 5.3333vw;
+              .inner-tile {
+                margin-bottom: 5.3333vw;
+
+                h5 {
+                  font-size: 4.2667vw;
+
+                  .text-style {
+                    font-size: 4.5333vw;
+                  }
+                }
+              }
+
+              .inner-cont {
+                padding-left: 2.4531vw;
+                margin-bottom: 5.3333vw;
+
+                .num {
+                  font-size: 3.4666vw;
+                }
+
+                .text {
+                  p {
+                    font-size: 3.4666vw;
+                  }
+
+                  .lists {
+                    margin: 5.3333vw 0 0;
+                    li {
+                      font-size: 3.4666vw;
+                      &:last-child {
+                        margin: 0;
+                      }
+                      span {
+                        font-size: 3.4666vw;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        .bottom-cont {
+          p {
+            font-size: 3.4667vw;
+          }
+        }
+      }
+    }
+  }
+
+  /*
+  * scss for terms of use static page
+  */
+  .privacy-policy-wrapper{
+    .content{
+      .inner-content{
+        padding: 8vw 4vw 13.3333vw;
+        .privacy-policy{
+          margin-bottom: 14.9333vw;
+          .text{
+            margin-bottom: 8vw;
+            p{
+              font-size: 3.4667vw;
+            }
+          }
+          .inner-cont{
+            padding-left: 0;
+            .num{
+              margin-right: 0.3608vw;
+              font-size: 3.4667vw;
+            }
+            .text{
+              margin-bottom: 5.3333vw;
+              font-size: 0.9371vw;
+              line-height: 1.6;
+              letter-spacing: 0.0239vw;
+              color: rgba(29, 33, 34, 0.87);
+            }
+          }
+        }
+        .provision-info {
+          p {
+            font-size: 3.4667vw;
+            .line-break {
+              display: block;
+            }
+          }
+        }
+        .inquries-info{
+          margin: 16vw 0 0;
+          h5{
+            font-size: 3.4667vw;
+          }
+          .text{
+            margin-top: 5.3333vw;
+            font-size: 3.4667vw;
+            .style-text{
+              font-size: 3.4667vw;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}

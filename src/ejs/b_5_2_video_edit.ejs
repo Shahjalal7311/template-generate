@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <%- include('./shared/_head.ejs', { title: 'B-5-2_動画情報編集' }) %>
+</head>
+<body class="bg-color">
+  <div class="canvas">
+
+    <%- include('./shared/_header.ejs', { title: '' }) %>
+    <!-- breadcrumb start  -->
+    <div class="breadcrumb-wrapper">
+      <div class="container">
+        <ul class="breadcrumb-ul">
+          <li>
+            <a href="/">Top</a>
+          </li>
+          <li>
+            <a href="">銀座4丁目あおり運転による交差点の接触事故の映像</a>
+          </li>
+          <li><a href="">投稿の編集</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- breadcrumb start  -->
+    <div class="content-body-bg">
+      <div class="container container-wrapper">
+        <div class="video-submission-form video-submission-form-edit">
+          <div class="title-head">
+            <h2 class="h2">動画投稿</h2>
+          </div>
+          <div class="content">
+            <div class="inner-content">
+              <form action="" class="form c-form-block">
+
+                <div class="infomation-group">
+                  <div class="form-area">
+                    <div class="left">
+                      <p class="label">動画アップロード</p>
+                    </div>
+                    <div class="right">
+                      <label class="label" for="">動画データ</label>
+                      <div class="upload-area">
+                        <img class="thum-view" src="/images/video-thum.png" alt="">
+                      </div>
+                      <div class="re-upload">
+                        <div class="button">
+                          <button class="btn btn-green">再アップロード</button>
+                        </div>
+                        <p class="text">
+                          <span class="line-break">動画ファイルを選択</span>
+                          <span class="line-break">または、ドラッグ&ドロップしてください</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="infomation-group">
+                  <!-- video info start -->
+                  <div class="form-area">
+                    <div class="left">
+                      <p class="label">動画情報</p>
+                    </div>
+                    <div class="right">
+                      <!-- タイトル start -->
+                      <div class="inner-group">
+                        <label class="label" for="">タイトル</label>
+                        <div class="form_group">
+                          <div class="input_group">
+                            <input name="name" type="text" class="form-control" value="銀座4丁目あおり運転による交差点の接触事故の映像" placeholder="例）銀座四丁目交差点交差点付近の衝突事故">
+                            <div class="char-number">24/50</div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- タイトル start -->
+                      <div class="inner-group">
+                        <label class="label" for="">タイトル</label>
+                        <div class="form_group shooting-date">
+                          <div class="input_group font_roboto width_88">
+                            <input name="year" type="text" class="form-control" value="2021">
+                          </div>
+                          <span class="text">年</span>
+                          <div class="input_group font_roboto width_63">
+                            <input name="month" type="text" class="form-control" value="28">
+                          </div>
+                          <span class="text">月</span>
+                          <div class="input_group font_roboto width_63">
+                            <input name="day" type="text" class="form-control" value="12">
+                          </div>
+                          <span class="text">日</span>
+                        </div>
+                      </div>
+                      <!-- 価格 start -->
+                      <div class="inner-group">
+                        <label class="label" for="">価格<span class="icon"></span></label>
+                        <div class="form_group price">
+                          <div class="input_group font_roboto">
+                            <input name="price" type="text" class="form-control" value="50,000">
+                          </div>
+                          <span class="text">円（税込）</span>
+                        </div>
+                      </div>
+
+                      <div class="inner-group">
+                        <label class="label" for="">説明文</label>
+                        <div class="form_group">
+                          <div class="input_group">
+                            <textarea name="descirption" rows="6" type="text" class="form-control"> 説明文が入ります。説明文が入ります。説明文が入ります。説明文が入ります。説明文が入ります。説明文が入ります。説明文が入ります。説明文が入ります。説明文が入ります。説明文が入ります。説明文が入ります。説明文が入ります。説明文が入ります。説明文が入ります。説明文が入ります。説明文が入ります。説明文が入ります。説明文が入ります。</textarea>
+                            <div class="char-number">100/1,000</div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                  <!-- video info end -->
+                </div>
+                <div class="infomation-group">
+                  <!-- map pin info start -->
+                  <div class="form-area">
+                    <div class="left">
+                      <p class="label">撮影場所</p>
+                    </div>
+                    <div class="right">
+                      <!-- 都道府県 start -->
+                      <div class="inner-group">
+                        <label class="label" for="">都道府県</label>
+                        <div class="form_group">
+                          <div class="input_group select-container">
+                            <select name="" class="form-control">
+                              <option>選択してください</option>
+                              <option selected value="">東京都</option>
+                              <option value="1">2020</option>
+                              <option value="2">2019</option>
+                              <option value="3">2018</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="inner-group">
+                        <label class="label" for="">以降の住所</label>
+                        <div class="form_group">
+                          <div class="input_group prefecture">
+                            <input name="descirption" type="text" class="form-control" value="東京都中央区銀座4丁目1番地2号">
+                          </div>
+                        </div>
+                        <div class="map-pin-button">
+                          <button type="submit" class="btn btn-green icon-down">地図に反映させる</button>
+                          <p class="map-text">
+                            撮影した場所をクリックし、ピンを表示させてください。
+                          </p>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class="map">
+                    <iframe class="iframe" id="gmap_canvas" src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                  </div>
+                </div><!-- map info end -->
+                <div class="button-group">
+                  <button type="submit" value="save" class="btn btn-green">動画を投稿する</button>
+                  <button type="submit" value="draft" class="btn btn-green">下書き保存する</button>
+                  <p class="text-nb">下書きはメニューの「マイページ＞下書き一覧」から編集できます</p>
+                  <button type="submit" value="cancle" class="btn btn-white">キャンセル</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <%- include('./shared/_footer.ejs', { title: '' }) %>
+    <%- include('./shared/_foot_js.ejs', { title: '' }) %>
+  </div>
+  </body>
+</html>

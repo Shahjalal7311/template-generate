@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <%- include('./shared/_head.ejs', { title: 'A-3-2_リセットメール送信完了' }) %>
+</head>
+<body class="bg-color">
+  <div class="canvas">
+
+    <%- include('./shared/_header.ejs', { title: '' }) %>
+    <!-- breadcrumb start  -->
+    <div class="breadcrumb-wrapper">
+      <div class="container">
+        <ul class="breadcrumb-ul">
+          <li>
+            <a href="/">Top</a>
+          </li>
+          <li>
+            <a href="">ログイン</a>
+          </li>
+          <li>
+            <a href="">パスワード再設定</a>
+          </li>
+          <li>
+            <a href="">パスワード再設定リセットメール送信完了</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- breadcrumb start  -->
+    <div class="email-confirmation-wrapper content-body-bg">
+      <div class="container container-wrapper">
+        <div class="title-head">
+          <h2 class="h2">パスワード再設定</h2>
+        </div>
+        <div class="content">
+          <div class="inner-content">
+            <div class="cont-area">
+              <h3 class="c-title">メールをご確認ください</h3>
+              <p class="text">
+                <span>入力したメールアドレス宛にメールを送信しました。</span>
+                <span>記載されている<em>URL</em>から、本登録へお進みください。</span>
+                <span><em>URL</em>の有効期限は<em>24</em>時間です。</span>
+              </p>
+            </div>
+            <div class="button">
+              <a class="btn btn-green icon" href="">TOPへ戻る</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <%- include('./shared/_footer.ejs', { title: '' }) %>
+    <%- include('./shared/_foot_js.ejs', { title: '' }) %>
+  </div>
+  </body>
+</html>

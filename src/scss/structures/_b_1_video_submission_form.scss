@@ -1,0 +1,539 @@
+.video-submission-form{
+  .inner-content{
+    padding: 3.6075vw 4.3290vw 7.2150vw;
+    .video-offer-submission-top{
+      border-bottom: 0.0722vw solid #2b6737;
+      margin: 0 0 1.4430vw;
+      .email-notify-message{
+        padding-bottom: 2.1645vw;
+        p{
+          font-size: 1.0823vw;
+          font-weight: 500;
+          line-height: 1.6;
+          letter-spacing: 0.0274vw;
+          text-align: center;
+          color: #1d2122;
+          span{
+            display: block;
+          }
+        }
+      }
+      .width_108 {
+        width: 6.4214vw;
+        height: 1.8038vw;
+        font-size: 0.7937vw;
+      }
+      .short-descrition{
+        margin: 0 0 2.1645vw;
+        padding: 1.4431vw 3.3189vw 2.1645vw 2.8860vw;
+        border-radius: 0.2165vw;
+        background-color: rgba(255, 255, 255, 0.4);
+        .published-date{
+          .text {
+            font-family: 'Roboto';
+            font-size: 0.7937vw;
+            letter-spacing: 0.0238vw;
+            text-align: left;
+            color: #1d2122;
+            .date-style {
+              font-size: 0.9371vw;
+              font-family: 'Noto Sans JP';
+            }
+          }
+        }
+        .video-info-areas{
+          .title{
+            padding-bottom: 1.0822vw;
+            font-size: 1.1544vw;
+            font-weight: bold;
+            letter-spacing: 0.0289vw;
+            text-align: left;
+            color: #1d2122;
+          }
+          .video-info{
+            .shoting-area {
+              margin-bottom: 0.4329vw;
+              display: flex;
+              align-items: center;
+              .date {
+                margin-left: 0.8658vw;
+                font-family: 'Roboto';
+                font-size: 1.0822vw;
+                font-weight: 500;
+                line-height: 1.5;
+                text-align: left;
+                color: #1d2122;
+                span {
+                  font-family: 'Noto Sans JP';
+                  font-weight: normal;
+                }
+              }
+            }
+    
+            .location {
+              display: flex;
+              align-items: center;
+              .date {
+                margin-left: 0.8658vw;
+                font-size: 1.0822vw;
+                font-weight: 500;
+                text-align: left;
+                line-height: 1.5;
+                color: #1d2122;
+                span {
+                  font-family: 'Roboto';
+                  font-weight: normal;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .form{
+      .infomation-group{
+        display: inline-block;
+        padding-bottom: 2.1646vw;
+        margin-bottom: 1.443vw;
+        width: 100%;
+        border-bottom: 0.0722vw solid #2b6737;
+        .map{
+          margin-top: 0.7937vw;
+          display: inline-block;
+          .iframe{
+            width: 56.2771vw;
+            height: 29.2208vw;
+          }
+        }
+      }
+      .form-area{
+        .left{
+          width: 10.906vw;
+          float: left;
+          .label{
+            font-size: 1.2987vw;
+            font-weight: bold;
+            line-height: 1.42;
+            letter-spacing: 0.0324vw;
+            color: #333;
+          }
+        }
+        .right{
+          width: 42.1356vw;
+          float: right;
+          .label{
+            display: inline-block;
+            padding: 0 0 0.5772vw;
+            font-size: 0.9379vw;
+            font-weight: 500;
+            color: #1d2122;
+            letter-spacing: 0.0238vw;
+            .icon{
+              background: url(/images/price-icon.svg);
+              width: 1.1545vw;
+              height: 1.1545vw;
+              display: inline-block;
+              vertical-align: text-bottom;
+              margin-left: 0.4329vw;
+              background-size: 1.1545vw 1.1545vw;
+            }
+          }
+          .re-upload{
+            display: flex;
+            align-items: center;
+            padding-top: 1.0822vw;
+            .button{
+              .btn-green{
+                width: 15.8730vw;
+                height: 3.4632vw;
+                padding-left: 2.5718vw;
+                &::before{
+                  content: '';
+                  position: absolute;
+                  background: url(/images/icon-reupload.svg);
+                  width: 1.7317vw;
+                  height: 1.7317vw;
+                  background-size: 1.7317vw 1.7317vw;
+                  left: 1.8037vw;
+                }
+              }
+            }
+            .text{
+              padding-left: 1.4430vw;
+              font-size: 0.9379vw;
+              font-weight: 500;
+              letter-spacing: 0.0238vw;
+              text-align: left;
+              color: rgba(29, 33, 34, 0.8);
+              .line-break{
+                display: block;
+              }
+            }
+          }
+          .upload-area{
+            position: relative;
+            width: 42.1357vw;
+            height: 23.7374vw;
+            border-radius: 0.2165vw;
+            background-color: rgba(29, 33, 34, 0.15);
+            .thum-view{
+              width: 100%;
+            }
+            .upload-text{
+              position: absolute;
+              top: 6.7821vw;
+              width: 100%;
+              text-align: center;
+              .img{
+                margin: 0 auto;
+                width: 4.76191vw;
+                height: 4.76191vw;
+              }
+              .txt{
+                padding: 2.1645vw 0 0;
+                font-size: 1.0822vw;
+                font-weight: bold;
+                line-height: 1.6;
+                letter-spacing: 0.0274vw;
+                text-align: center;
+                color: rgba(29, 33, 34, 0.35);
+                .line-break{
+                  display: block;
+                }
+              }
+            }
+          }
+          .inner-group{
+            margin-bottom: 1.0822vw;
+            &:last-child{
+              margin-bottom: 0;
+            }
+            .form_group{
+              .input_group{
+                position: relative;
+                z-index: 1;
+                .char-number{
+                  position: absolute;
+                  z-index: 2;
+                  right: 0.7215vw;
+                  bottom: 0.5773vw;
+                  font-family: 'Roboto';
+                  font-size: 0.7937vw;
+                  font-weight: 500;
+                  letter-spacing: 0.0202vw;
+                  color: #1d2122;
+                }
+                &.prefecture{
+                  input[type=text]{
+                    &::placeholder {
+                      color: #1d2122;
+                    }
+                  }
+                }
+              }
+              .text{
+                padding-left: 0.7215vw;
+                padding-right: 1.0823vw;
+                font-size: 1.0822vw;
+                font-weight: 500;
+                line-height: 1.6;
+                letter-spacing: 0.0274vw;
+                color: #1d2122;
+              }
+              .select-container{
+                width: 13.5643vw;
+                &.full_width{
+                  width: 100%;
+                }
+                select{
+                  width: 100%;
+                  color: #1d2122;
+                }
+              }
+              &.shooting-date{
+                display: flex;
+                align-items: center;
+                .width_88{
+                  width: 6.3492vw;
+                }
+                .width_63{
+                  width: 4.5455vw;
+                }
+              }
+              &.price{
+                display: flex;
+                align-items: flex-end;
+                .input_group{
+                  width: 21.2121vw;
+                }
+              }
+            }
+            .map-pin-button{
+              margin-top: 1.8038vw;
+              .btn-green{
+                width: 20.2021vw;
+                height: 4.1848vw;
+              }
+              .map-text{
+                padding: 1.4431vw 0.5772vw 0;
+                font-size: 1.0101vw;
+                font-weight: bold;
+                line-height: 1.6;
+                letter-spacing: 0.0255;
+                color: #2b6737;
+              }
+            }
+          }
+        }
+      }
+      .button-group{
+        width: 32.4676vw;
+        margin: 0 auto;
+        padding-top: 1.8038vw;
+        .btn{
+          width: 100%;
+          height: 4.1848vw;
+          &.btn-green{
+            margin-bottom: 1.0825vw;
+          }
+        }
+        .text-nb{
+          text-align: center;
+          padding: 0 0 1.0823vw;
+          font-size: 1.0101vw;
+          font-weight: bold;
+          line-height: 1.6;
+          letter-spacing: 0.0255;
+          color: #2b6737;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px){
+  .video-submission-form{
+    .inner-content{
+      padding-top: 5.3333vw;
+      padding-bottom: 13.3333vw;
+      .video-offer-submission-top{
+        border-bottom: 0.0722vw solid #2b6737;
+        margin: 0 0 5.3333vw;
+        .email-notify-message{
+          padding-bottom: 5.6vw;
+          p{
+            font-size: 4vw;
+            text-align: left;
+          }
+        }
+        .width_108 {
+          width: 23.7334vw;
+          height: 6.6667vw;
+          font-size: 2.9333vw;
+        }
+        .short-descrition{
+          margin: 0 0 5.3333vw;
+          padding: 4vw 4vw 8.2667vw;
+          border-radius: 0.8vw;
+          .published-date{
+            margin-bottom: 1.6vw;
+            .text {
+              font-size: 2.9334vw;
+              .date-style {
+                font-size: 3.4667vw;
+              }
+            }
+          }
+          .video-info-areas{
+            .title{
+              padding-bottom: 2.9333vw;
+              font-size: 4.8vw;
+            }
+            .video-info{
+              .shoting-area {
+                margin-bottom: 1.0667vw;
+                .date {
+                  margin-left: 2.6667vw;
+                  font-size: 4vw;
+                  width: 49.6vw;
+                }
+              }
+      
+              .location {
+                align-items: flex-start;
+                .date {
+                  margin-left:2.6667vw;
+                  font-size: 4.8vw;
+                  width: 49.6vw;
+                }
+              }
+            }
+          }
+        }
+      }
+      .form{
+        .infomation-group{
+          display: inline-block;
+          padding-bottom: 5.3333vw;
+          margin-bottom: 4vw;
+          width: 100%;
+          border-bottom: 0.2667vw solid #2b6737;
+          .map{
+            margin-top: 0.7937vw;
+            display: inline-block;
+            .iframe{
+              width: 83.7334vw;
+              height: 84vw;
+            }
+          }
+        }
+        .form-area{
+          .left{
+            width: 100%;
+            .label{
+              font-size: 4.8vw;
+              padding-bottom: 5.6vw;
+            }
+          }
+          .right{
+            width: 100%;
+            .label{
+              padding: 0 0 1.6vw;
+              font-size: 3.4667vw;
+              .icon{
+                width: 4.2666vw;
+                height: 4.2666vw;
+                margin-left: 1.6vw;
+                background-size: 4.2666vw 4.2666vw;
+              }
+            }
+            .re-upload{
+              display: inline-block;
+              padding-top: 4vw;
+              width: 100%;
+              .button{
+                .btn-green{
+                  width: 58.6667vw;
+                  height: 12.8vw;
+                  padding-left: 8.6667vw;
+                  &::before{
+                    width: 6.4vw;
+                    height: 6.4vw;
+                    background-size: 6.4vw 6.4vw;
+                    left: 6.6667vw;
+                  }
+                }
+              }
+              .text{
+                padding: 2.6667vw 0 0;
+                font-size: 3.4666vw;
+              }
+            }
+            .upload-area{
+              position: relative;
+              width: 83.7866vw;
+              height: 47.1991vw;
+              border-radius: 0.8vw;
+              .thum-view{
+                width: 100%;
+                border-radius: 0.8vw;
+              }
+              .upload-text{
+                position: absolute;
+                top: 8.1867vw;
+                width: 100%;
+                text-align: center;
+                .img{
+                  margin: 0 auto;
+                  width: 18.8267vw;
+                  height: 18.8267vw;
+                }
+                .txt{
+                  padding: 5.7067vw 0 0;
+                  font-size: 4vw;
+                  .pc-only{
+                    display: none;
+                  }
+                }
+              }
+            }
+            .inner-group{
+              margin-bottom: 4vw;
+              &:last-child{
+                margin-bottom: 0;
+              }
+              .form_group{
+                .input_group{
+                  .char-number{
+                    position: relative;
+                    text-align: right;
+                    padding-top: 1.6vw;
+                    font-size: 2.9333vw;
+                  }
+                }
+                .text{
+                  padding-left: 2.1333vw;
+                  padding-right: 3.4667vw;
+                  font-size: 4vw;
+                }
+                .select-container{
+                  width: 50.1333vw;
+                  select{
+                    width: 100%;
+                  }
+                }
+                &.shooting-date{
+                  display: flex;
+                  align-items: center;
+                  .width_88{
+                    width: 26.666vw;
+                  }
+                  .width_63{
+                    width: 16vw;
+                  }
+                }
+                &.price{
+                  display: flex;
+                  align-items: flex-end;
+                  .input_group{
+                    width: 60.8vw;
+                  }
+                  .text{
+                    padding-right: 0;
+                  }
+                }
+              }
+              .map-pin-button{
+                margin-top: 5.3334vw;
+                .btn-green{
+                  width: 84vw;
+                  height: 15.4667vw;
+                }
+                .map-text{
+                  padding: 5.3334vw 0 2.9334vw;
+                  font-size: 3.7334vw;
+                }
+              }
+            }
+          }
+        }
+        .button-group{
+          width: 84vw;
+          padding-top: 1.8038vw;
+          .btn{
+            width: 100%;
+            height: 15.4667vw;
+            &.btn-green{
+              margin-bottom: 4vw;
+            }
+          }
+          .text-nb{
+            text-align: left;
+            padding: 0 0 4vw;
+            font-size: 3.7334vw;
+          }
+        }
+      }
+    }
+  }
+}

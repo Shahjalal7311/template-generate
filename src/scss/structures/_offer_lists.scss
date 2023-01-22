@@ -1,0 +1,218 @@
+.offer-lists-wrapper{
+  .offer-lists-cont{
+    display: inline-block;
+    width: 100%;
+    padding: 1.8038vw 2.8860vw 7.2151vw 1.7316vw;
+    border-radius: 0.2161vw;
+    background-color: #c8cbc8;
+    .offer-lists{
+      .single-offer{
+        border-bottom: 0.0722vw solid rgba(29, 33, 34, 0.15);
+        margin: 0 0 1.0823vw;
+        padding: 0 0 1.4431vw;
+        .offer-top{
+          margin-bottom: 0.7216vw;
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-start;
+          .offer-title{
+            a{
+              font-size: 1.2987vw;
+              font-weight: bold;
+              line-height: 1.42;
+              letter-spacing: 0.0324vw;
+              color: #1d2122;
+              &:hover{
+                color: #3b9f56;
+              }
+            }
+          }
+          .release-date{
+            p{
+              font-family: 'Roboto';
+              font-size: 0.9371vw;
+              letter-spacing: 0.0238;
+              text-align: left;
+              color: rgba(29, 33, 34, 0.8);
+              span{
+                font-family: 'Noto Sans JP';
+                font-size: 0.7937vw;
+                letter-spacing: 0.0202vw;
+              }
+            }
+          }
+        }
+        .offer-cont{
+          .shoting-area{
+            margin-bottom: 0.4329vw;
+            display: flex;
+            align-items: center;
+            .date{
+              margin-left: 0.7215vw;
+              font-family: 'Roboto';
+              font-size: 1.0823vw;
+              font-weight: 500;
+              letter-spacing: 0.0274;
+              text-align: left;
+              color: #1d2122;
+              span{
+                font-family: 'Noto Sans JP';
+                font-weight: normal;
+              }
+            }
+          }
+          .location{
+            display: flex;
+            align-items: center;
+            .date{
+              margin-left: 0.7215vw;
+              font-size: 1.0823vw;
+              font-weight: 500;
+              letter-spacing: 0.0274;
+              text-align: left;
+              color: #1d2122;
+              span{
+                font-family: 'Roboto';
+                font-weight: normal;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px){
+  .offer-lists-wrapper{
+    .content{
+      display: flex; 
+      flex-direction: column;
+      .left_cont{
+        order: 2;
+      }
+      .sidebar_wrapper{
+        order: 1;
+        margin-bottom: 5.3333vw;
+        padding-bottom: 5.3333vw;
+      }
+    }
+
+    .offer-lists-cont{
+      padding: 5.3333vw 4vw 13.3333vw;
+      border-radius: 0.8vw;
+      .offer-lists{
+        padding-bottom: 2vw;
+        .single-offer{
+          border-bottom: 0.0722vw solid rgba(29, 33, 34, 0.15);
+          margin: 0 0 3.2vw;
+          padding: 0 0 4.2667vw;
+          .offer-top{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            .offer-title{
+              order: 2;
+              padding-bottom: 2.9333vw;
+              a{
+                font-size: 4.8vw;
+                line-height: 1.42;
+                letter-spacing: 0.12;
+              }
+            }
+            .release-date{
+              order: 1;
+              margin-bottom: 1.6vw;
+              p{
+                font-size: 3.4667vw;
+                letter-spacing: 0.088vw;
+                span{
+                  font-size: 2.9333vw;
+                }
+              }
+            }
+          }
+          .offer-cont{
+            .shoting-area{
+              margin-bottom: 1.0667vw;
+              .date{
+                margin-left: 2.6667vw;
+                font-size: 4vw;
+              }
+            }
+            .location{
+              .date{
+                margin-left: 2.6667vw;
+                font-size: 4vw;
+                width: 69%;
+                display: -webkit-box;
+                -webkit-line-clamp: 1;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+              }
+            }
+          }
+        }
+      }
+    }
+    .search-lv{
+      margin-bottom: 5.3333vw;
+      .form{
+        .form_area{
+          margin: 0 0 4.5333vw;
+          .label_area{
+            margin-bottom: 1.8667vw;
+          }
+          .date_search{
+            display: flex;
+            align-items: center;
+            .input_group{
+              &:nth-of-type(1){
+                width: 26.6667vw;
+              }
+              &:nth-of-type(2), &:nth-of-type(3){
+                width: 16vw;
+              }
+            }
+            .text-style{
+              padding-left: 2.2334vw;
+              padding-right: 3.4667vw;
+            }
+          }
+        }
+        .search-button{
+          .btn-green{
+            width: 100%;
+            height: 12.8vw;
+          }
+        }
+      }
+    }
+    .map-pin-lv{
+      margin-bottom: 5.3334vw;
+      .map-frame{
+        width: 100%;
+        height: 64vw;
+      }
+    }
+    .video-looking-lv{
+      position: fixed;
+      width: 100%;
+      left: 0;
+      bottom: 0;
+      padding: 4vw 4vw 8vw;
+      border-radius: 0;
+      background-color: rgba(255, 255, 255, 0.9);
+      .text{
+        margin: 0 0 4vw;
+        font-size: 3.4667vw;
+      }
+      .video-looking-button{
+        .btn-green{
+          width: 100%;
+          height: 15.4666vw;
+        }
+      }
+    }
+  }
+}

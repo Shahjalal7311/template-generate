@@ -1,0 +1,41 @@
+.video-lists-wrapper{
+  .title-head-ext{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .content{
+    .video-lists{
+      margin-left: -2.1962vw;
+      .signle-item{
+        width: calc(25% - 2.1962vw);
+        float: left;
+        margin-left: 2.1962vw;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px){
+  .video-lists-wrapper{
+    .title-head-ext{
+      .h4{
+        padding: 0 0 5.1333vw;
+      }
+    }
+    .content{
+      .video-lists{
+        display: inline-block;
+        margin: 0 0 4vw;
+        .signle-item{
+          width: 100%;
+          float: left;
+          margin:0 0 5.3334vw;
+          &:last-child{
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+}

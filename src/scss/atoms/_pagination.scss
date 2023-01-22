@@ -1,0 +1,129 @@
+.pagination-wrapper{
+  text-align: center;
+  margin-top: 2.8860vw;
+  .pagination{
+    display: inline-block;
+    li{
+      position: relative;
+      float: left;
+      height: 3.6075vw;
+      width: 3.6075vw;
+      border-radius: 0.2165vw;
+      background-color: rgba(255, 255, 255, 0.9);
+      margin-right: 0.7216vw;
+      &.prev{
+        a{
+          &::after{
+            content: '';
+            top: 1.3vw;
+            background: url(/images/arrow-prev.svg);
+            position: absolute;
+            width: 0.9371vw;
+            height: 1.1544vw;
+            background-size: 0.9371vw 1.1544vw;
+          }
+        }
+      }
+      &.next{
+        a{
+          &::after{
+            content: '';
+            top: 1.3vw;
+            background: url(/images/arrow-green.svg);
+            position: absolute;
+            width: 0.9371vw;
+            height: 1.1544vw;
+            background-size: 0.9371vw 1.1544vw;
+          }
+        }
+      }
+      &:last-child{
+        margin-right: 0;
+      }
+      a{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Roboto';
+        font-size: 1.4430vw;
+        font-weight: bold;
+        text-align: left;
+        color: #2b6737;
+      }
+      &.active{
+        background: #2b6737 0% 0% no-repeat padding-box;
+        a{
+          color: #FFFFFF;
+        }
+      }
+      &.number{
+        &:hover{
+          background: #2b6737 0% 0% no-repeat padding-box;
+          color: #FFFFFF;
+          a{
+            color: #FFFFFF;
+          }
+        }
+      }
+      &.dott{
+        background: unset;
+        a{
+          background: transparent;
+          border: none;
+          color: #2b6737;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 767px){
+  .pagination-wrapper{
+    margin-top: 2.8860vw;
+    .pagination{
+      display: inline-block;
+      li{
+        height: 10.4vw;
+        width: 10.4vw;
+        border-radius: 0.8vw;
+        margin-right: 2.4vw;
+        &.prev{
+          a{
+            &::after{
+              content: '';
+              top: 3.2vw;
+              background: url(/images/arrow-prev.svg);
+              position: absolute;
+              width: 3.3866vw;
+              height: 4.16vw;
+              background-size: 3.3866vw 4.16vw;
+            }
+          }
+        }
+        &.next{
+          a{
+            &::after{
+              content: '';
+              top: 3.2vw;
+              background: url(/images/arrow-green.svg);
+              position: absolute;
+              width: 3.3866vw;
+              height: 4.16vw;
+              background-size: 3.3866vw 4.16vw;
+            }
+          }
+        }
+        &:last-child{
+          margin-right: 0;
+        }
+        a{
+          font-size: 4.8vw;
+        }
+        &.dott{
+          width: unset;
+        }
+      }
+    }
+  }
+}

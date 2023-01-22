@@ -1,0 +1,21 @@
+.h2{
+  display: inline-block;
+  padding: 0 0 2.27vw;
+  font-family: 'Noto Sans JP';
+  font-size: 1.9035vw;
+  font-weight: bold;
+  letter-spacing: 0.05vw;
+  text-align: left;
+  color: #fff;
+  border-bottom: 0.22vw solid #2b6737;
+}
+
+@media screen and (max-width: 767px) {
+  .h2{
+    display: inline-block;
+    padding: 0 0 7.7333vw;
+    font-size: 5.8667vw;
+    letter-spacing: 0.1467vw;
+    border-bottom: 0.8vw solid #2b6737;
+  }
+}

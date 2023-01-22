@@ -1,0 +1,294 @@
+/**
+* scss for video post message
+**/
+.notoficatin-message{
+  background-color: #3b9f56;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  height: 5.9720vw;
+  width: 100%;
+  top: 0;
+  z-index: 2;
+  opacity: 0.9;
+  .message-txt{
+    width: 100%;
+    font-size: 1.4430vw;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+  }
+}
+
+/**
+* scss for video details page
+**/
+.video-details{
+  display: inline-block;
+  width: 100%;
+  &__cont{
+    .video-thum{
+      img{
+        width: 56.1327vw;
+        height: 31.6017vw;
+      }
+    }
+    .shooting-date{
+      background-color: rgba(255, 255, 255, 0.1);
+      display: flex;
+      align-items: center;
+      padding: 0.7937vw 1.0823vw 0.7216vw;
+      .photograph-date{
+        margin-right: 1.0823vw;
+      }
+      .photograph-date, .release-date{
+        display: flex;
+        align-items: center;
+        .btn-sm{
+          width: 2.5974vw;
+          height: 1.4430vw;
+          display: flex;
+          justify-content: center;
+          margin-right: 0.4329vw;
+          border-radius: 0;
+          border: solid 0.0722vw rgba(255, 255, 255, 0.4);;
+          font-size: 0.8659vw;
+          font-weight: 500;
+          letter-spacing: 0.021vw;
+          color: #fff;
+        }
+        .text{
+          font-family: 'Roboto';
+          font-size: 0.9379vw;
+          font-weight: bold;
+          letter-spacing: 0.0242vw;
+          text-align: left;
+          color: #fff;
+          .date-style{
+            font-family: 'Noto Sans JP';
+            font-size: 1.0822vw;
+            letter-spacing: 0.021vw;
+          }
+        }
+      }
+    }
+    .description{
+      .title{
+        padding: 1.4430vw 0 1.5151vw;
+        font-size: 1.7316vw;
+        font-weight: bold;
+        text-align: left;
+        color: #fff;
+      }
+      .details{
+        font-size: 1.0101vw;
+        font-weight: 500;
+        line-height: 1.6;
+        letter-spacing: 0.0253vw;
+        color: #fff;
+      }
+    }
+  }
+  &__sidebar-cont{
+    .price{
+      display: flex;
+      align-items: flex-end;
+      span{
+        color: #1d2122;
+      }
+      .number{
+        font-family: 'Roboto';
+        font-size: 2.0202vw;
+        font-weight: bold;
+        text-align: left;
+      }
+      .currency{
+        margin-left: 0.2886vw;
+        font-size: 1.2987vw;
+        font-weight: bold;
+        letter-spacing: 0.0324vw;
+        text-align: left;
+      }
+      .with-tax{
+        font-size: 0.8658vw;
+        font-weight: 500;
+      }
+    }
+    .edit-post{
+      padding-top: 1.0101vw;
+      .btn-green{
+        height: 4.1847vw;
+      }
+    }
+    .movie-info{
+      padding: 1.0823vw 0 1.4430vw;
+      p{
+        font-family: 'Roboto';
+        font-size: 1.0101vw;
+        font-weight: 500;
+        color: #1d2122;
+        .text-style{
+          font-family: 'Noto Sans JP';
+          font-weight: bold;
+        }
+      }
+    }
+    .map-point{
+      .map{
+        width: 30.6638vw;
+        height: 17.3160vw;
+        border-radius: 0.2164vw;
+        margin: 0 0 0.8658vw;
+      }
+    }
+    .text-area{
+      .txt{
+        font-size: 1.1544vw;
+        font-weight: bold;
+        line-height: 1.4;
+        color: #1d2122;
+      }
+      .link{
+        padding-top: 0.8659vw;
+        a{
+          display: flex;
+          align-items: center;
+          font-size: 0.9379vw;
+          font-weight: bold;
+          line-height: 1.72;
+          color: #2b6737;
+          text-decoration: underline;
+          &::after{
+            content: '';
+            margin-left: 0.5vw;
+            background: url(/images/target-blank-icon.svg);
+            width: 0.9379vw;
+            height: 0.9379vw;
+            background-size: 0.9379vw 0.9379vw;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px){
+  /**
+  * scss for video post message
+  **/
+  .notoficatin-message{
+    display: flex;
+    align-items: flex-end;
+    height: 21.9333vw;
+    padding-bottom: 4.333vw;
+    .message-txt{
+      font-size: 5.3333vw;
+    }
+  }
+
+  /**
+  * scss for video details page
+  **/
+  .video-details{
+    &__cont{
+      margin-bottom: 8vw;
+      .video-thum{
+        img{
+          width: 100%;
+          height: 51.7333vw;
+        }
+      }
+      .shooting-date{
+        padding: 0 4vw;
+        height: 10.6667vw;
+        .photograph-date{
+          margin-right: 2.4vw;
+        }
+        .photograph-date, .release-date{
+          display: flex;
+          align-items: center;
+          .btn-sm{
+            width: 9.6vw;
+            height: 5.3334vw;
+            border: solid 0.2667vw rgba(255, 255, 255, 0.4);;
+            font-size: 3.2vw;
+            margin-right: 1.6vw;
+          }
+          .text{
+            font-size: 3.4667vw;
+            .date-style{
+              font-size: 4vw;
+            }
+          }
+        }
+      }
+      .description{
+        .title{
+          padding: 5.3333vw 0 5.8666vw;
+          font-size: 6.4vw;
+        }
+        .details{
+          font-size: 3.7333vw;
+        }
+      }
+    }
+    &__sidebar-cont{
+      .price{
+        display: flex;
+        align-items: flex-end;
+        span{
+          color: #1d2122;
+        }
+        .number{
+          font-size: 7.4666vw;
+        }
+        .currency{
+          margin-left: 1.0667vw;
+          font-size: 4.8vw;
+        }
+        .with-tax{
+          font-size: 3.2vw;
+        }
+      }
+      .edit-post{
+        padding-top: 4.8vw;
+        .btn-green{
+          height: 15.4667vw;
+        }
+      }
+      .movie-info{
+        padding: 3.2vw 0 4vw;
+        p{
+          font-size: 3.7333vw;
+        }
+      }
+      .map-point{
+        .map{
+          width: 100%;
+          height: 64vw;
+          border-radius: 0.8vw;
+          margin: 0 0 2.6667vw;
+        }
+      }
+      .text-area{
+        .txt{
+          font-size: 4.2666vw;
+          line-height: 1.6;
+        }
+        .link{
+          padding-top: 3.2vw;
+          a{
+            font-size: 3.4667vw;
+            &::after{
+              margin-left: 1.6vw;
+              width: 3.4667vw;
+              height: 3.4667vw;
+              background-size: 3.4667vw 3.4667vw;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}

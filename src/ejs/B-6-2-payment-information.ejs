@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <%- include('./shared/_head.ejs', { title: 'B-6-2_支払い情報入力' }) %>
+</head>
+<body class="bg-color">
+  <div class="canvas">
+    <%- include('./shared/_header.ejs', { title: '' }) %>
+    <!-- breadcrumb start  -->
+    <div class="breadcrumb-wrapper">
+      <div class="container">
+        <ul class="breadcrumb-ul">
+          <li>
+            <a href="/">Top</a>
+          </li>
+          <li>
+            <a href="">動画投稿</a>
+          </li>
+          <li>
+            <a href="">銀座4丁目あおり運転による交差点の接触事故の映像</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- breadcrumb start  -->
+    <div class="content-body-bg">
+      <div class="container container-wrapper">
+        <div class="payment-information-wrapper">
+          <div class="title-head">
+            <h2 class="h2">動画投稿</h2>
+          </div>
+          <div class="content">
+            <div class="left_cont">
+              <div class="payment-information">
+                <form action="" class="form c-form-block">
+
+                  <div class="form_area">
+                    <div class="label_area">
+                      <label class="label_txt">ご利用可能カード</label>
+                    </div>
+                    <div class="form_group">
+                      <ul class="payment-type">
+                        <li>
+                          <img src="/images/payment/visa.svg" alt="">
+                        </li>
+                        <li>
+                          <img src="/images/payment/americanexpress.svg" alt="">
+                        </li>
+                        <li>
+                          <img src="/images/payment/jcb.svg" alt="">
+                        </li>
+                        <li>
+                          <img src="/images/payment/mastercard.svg" alt="">
+                        </li>
+                        <li>
+                          <img src="/images/payment/diners.svg" alt="">
+                        </li>
+                      </ul>   
+                    </div>
+                  </div>
+                  <div class="form_area">
+                    <div class="label_area">
+                      <label class="label_txt">カード番号</label>
+                    </div>
+                    <div class="form_group">
+                      <div class="input_group">
+                        <input name="name" type="text" class="form-control" placeholder="例）1234  5678  1234  5678">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form_area">
+                    <div class="label_area">
+                      <label class="label_txt">カード名義</label>
+                    </div>
+                    <div class="form_group">
+                      <div class="input_group">
+                        <input name="name" type="text" class="form-control" placeholder="例）TARO YAMADA">
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="form_area">
+                    <div class="label_area">
+                      <label class="label_txt">有効期限</label>
+                    </div>
+                    <div class="form_group card_expiry_date">
+                      <div class="input_group width_40">
+                        <input name="name" type="text" class="form-control" placeholder="00">
+                      </div>
+                      <div class="inline-lavel">月 /</div>
+                      <div class="input_group width_60">
+                        <input name="name" type="text" class="form-control" placeholder="00">
+                      </div>
+                      <div class="inline-lavel">年</div>
+                    </div>
+                  </div>
+                  <div class="form_area">
+                    <div class="label_area">
+                      <label class="label_txt">有効期限</label>
+                    </div>
+                    <div class="form_group cvc">
+                      <div class="input_group width_89">
+                        <input name="name" type="text" class="form-control" placeholder="123">
+                      </div>
+                      <p class="info-text">
+                        ※通常カード裏面に刻印されています
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="form_area">
+                    <div class="label_area">
+                      <label class="label_txt">お支払い回数</label>
+                    </div>
+                    <div class="form_group">
+                      <div class="input_group">
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="radio" id="notification_radio1" checked>
+                          <label class="form-check-label" for="notification_radio1">一回払い</label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </form>
+              </div>
+            </div>
+            <div class="sidebar_wrapper bg_gray">
+              <div class="sidebar-cont">
+                <div class="price">
+                  <span class="number">50,000</span>
+                  <span class="currency">円</span><span class="with-tax">（税込）</span>
+                </div>
+                <div class="edit-post">
+                  <a href="" class="btn btn-green icon">購入を確定する</a>
+                </div>
+                <div class="info-areas">
+                  <div class="video-info-areas">
+                    <h4 class="title">銀座4丁目あおり運転による交差点の接触事故の映像</h4>
+                    <div class="video-info">
+                      <div class="shoting-date">
+                        <button type="" class="btn btn-sm width_108">撮影</button>
+                        <p class="date">2021<span>年</span>12<span>月</span>28<span>日</span></p>
+                      </div>
+                      <div class="location">
+                        <button type="" class="btn btn-sm width_108">公開</button>
+                        <p class="date">2021<span>年</span>12<span>月</span>28<span>日</span></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="location-text">
+                    <p>
+                      <svg id="Component_32_2" data-name="Component 32 – 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10" height="14.175" viewBox="0 0 10 14.175">
+                        <defs>
+                          <clipPath id="clip-path">
+                            <rect id="Rectangle_1094" data-name="Rectangle 1094" width="10" height="14.175" fill="#2b6737"/>
+                          </clipPath>
+                        </defs>
+                        <g id="Group_3249" data-name="Group 3249" clip-path="url(#clip-path)">
+                          <path id="Path_45679" data-name="Path 45679" d="M5,0A5.006,5.006,0,0,0,0,5c0,3.356,4.584,8.841,4.779,9.072a.288.288,0,0,0,.219.1H5a.288.288,0,0,0,.219-.1C5.414,13.846,10,8.453,10,5A5.006,5.006,0,0,0,5,0" fill="#2b6737"/>
+                          <path id="Path_45680" data-name="Path 45680" d="M76.857,72.293a2.126,2.126,0,1,0,2.126,2.126,2.128,2.128,0,0,0-2.126-2.126" transform="translate(-71.857 -69.512)" fill="#fff"/>
+                        </g>
+                      </svg>                      
+                      東京都中央区銀座4丁目1番地2号
+                    </p>
+                  </div>
+                  <div class="info-details">
+                    <p>
+                      1920<span class="text-style"> × </span>1080ピクセル / MOV / 72.8MB
+                    </p>
+                  </div>
+                </div>
+                <div class="video-map-thum-view">
+                  <div class="thum-view">
+                    <img class="thum" src="/images/video-thum-1.png" alt="">
+                  </div>
+                  <div class="map-view">
+                    <img class="map" src="/images/map-thum.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <%- include('./shared/_footer.ejs', { title: '' }) %>
+    <%- include('./shared/_foot_js.ejs', { title: '' }) %>
+  </div>
+  </body>
+</html>

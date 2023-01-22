@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <%- include('./shared/_head.ejs', { title: 'C-6_口座情報登録' }) %>
+</head>
+<body class="bg-color">
+  <div class="canvas">
+
+    <%- include('./shared/_header.ejs', { title: '' }) %>
+    <!-- breadcrumb start  -->
+    <div class="breadcrumb-wrapper">
+      <div class="container">
+        <ul class="breadcrumb-ul">
+          <li>
+            <a href="/">Top</a>
+          </li>
+          <li>
+            <a href="">会員情報</a>
+          </li>
+          <li>
+            <a href="">口座情報の登録</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- breadcrumb start  -->
+    <div class="content-body-bg">
+      <div class="container container-wrapper">
+        <div class="sign-up-wrapper member-information-registration">
+          <div class="title-head">
+            <h2 class="h2">口座情報の登録</h2>
+          </div>
+          <div class="content">
+            <div class="inner-content">
+              <form action="" class="form c-form-block">
+                <!-- 氏名 start-->
+                <div class="form_area">
+                  <div class="label_area">
+                    <label class="label_txt"><span class="mandatory">必須</span>金融機関</label>
+                  </div>
+                  <div class="form_group">
+                    <div class="input_group select-container">
+                      <select name="" class="form-control">
+                        <option selected>金融機関を選択</option>
+                        <option value="2021">2021</option>
+                        <option value="1">2020</option>
+                        <option value="2">2019</option>
+                        <option value="3">2018</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <!-- 氏名（カナ） start-->
+                <div class="form_area">
+                  <div class="label_area">
+                    <label class="label_txt"><span class="mandatory">必須</span>支店</label>
+                  </div>
+                  <div class="form_group">
+                    <div class="input_group select-container">
+                      <select name="" class="form-control">
+                        <option selected>支店を選択</option>
+                        <option value="2021">2021</option>
+                        <option value="1">2020</option>
+                        <option value="2">2019</option>
+                        <option value="3">2018</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <!-- 性別 start -->
+                <div class="form_area">
+                  <div class="label_area">
+                    <label class="label_txt"><span class="mandatory">必須</span>預金種別</label>
+                  </div>
+                  <div class="form_group">
+                    <div class="input_group notification_input_area">
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="radio" id="notification_radio1" checked>
+                        <label class="form-check-label" for="notification_radio1">男性</label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="radio" id="notification_radio2">
+                        <label class="form-check-label" for="notification_radio2">女性</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- メールアドレス start-->
+                <div class="form_area">
+                  <div class="label_area">
+                    <label class="label_txt"><span class="mandatory">必須</span>口座番号</label>
+                  </div>
+                  <div class="form_group">
+                    <div class="input_group full_width">
+                      <input name="name" type="text" class="form-control" placeholder="例）0000000">
+                    </div>
+                  </div>
+                </div>
+                <!-- 郵便番号 start-->
+                <div class="form_area">
+                  <div class="label_area">
+                    <label class="label_txt"><span class="mandatory">必須</span>名義</label>
+                  </div>
+                  <div class="form_group">
+                    <div class="input_group">
+                      <input name="name" type="text" class="form-control" placeholder="例）スズキタロウ">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="button">
+                  <button type="submit" class="btn btn-white">キャンセル</button>
+                  <button type="submit" class="btn btn-green">保存する</button>
+                </div>
+
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <%- include('./shared/_footer.ejs', { title: '' }) %>
+    <%- include('./shared/_foot_js.ejs', { title: '' }) %>
+  </div>
+</body>
+
+</html>

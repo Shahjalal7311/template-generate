@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <%- include('./shared/_head.ejs', { title: 'C-5-会員情報確認' }) %>
+</head>
+<body class="bg-color">
+  <div class="canvas">
+    <%- include('./shared/_header.ejs', { title: '' }) %>
+    <!-- breadcrumb start  -->
+    <div class="breadcrumb-wrapper">
+      <div class="container">
+        <ul class="breadcrumb-ul">
+          <li>
+            <a href="/">Top</a>
+          </li>
+          <li>
+            <a href="">会員情報</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- breadcrumb start  -->
+    <div class="content-body-bg">
+      <div class="container container-wrapper">
+        <div class="member-information-wrapper">
+          <div class="title-head">
+            <h2 class="h2">会員情報</h2>
+          </div>
+          <div class="content">
+            <div class="inner-content">
+              <div class="member-information-cont">
+                <div class="left_part">
+                  <div class="member-information">
+                    <div class="top">
+                      <h4>基本情報</h4>
+                    </div>
+                    <div class="body-cont">
+                      <p class="text">姓 名（セイ メイ）</p>
+                      <p class="text">男性</p>
+                      <p class="text">000-0000-0000</p>
+                      <p class="text">sample@sample.com </p>
+                      <p class="text">〒1234567</p>
+                      <p class="text">
+                        <span class="line-break">東京都渋谷区</span>
+                        <span class="line-break">◯◯◯◯◯◯◯◯◯◯◯◯◯◯◯</span>
+                      </p>
+                    </div>
+                    <div class="bottom-cont">
+                      <div class="button">
+                        <a href="" class="btn btn-green icon">変更する</a>
+                      </div>
+                      <p class="text">パスワードの再設定は<a href="">こちら</a></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="left_part">
+                  <div class="member-information">
+                    <div class="top">
+                      <h4>口座情報</h4>
+                    </div>
+                    <div class="body-cont">
+                      <p class="text">◯◯◯◯銀行</p>
+                      <p class="text">◯◯◯◯支店</p>
+                      <p class="text"><span class="text-style">普通</span>  ****123</p>
+                      <p class="text font">セイ メイ</p>
+                    </div>
+                    <div class="bottom-cont">
+                      <div class="button">
+                        <a href="" class="btn btn-green icon">変更する</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <%- include('./shared/_footer.ejs', { title: '' }) %>
+    <%- include('./shared/_foot_js.ejs', { title: '' }) %>
+  </div>
+  </body>
+</html>

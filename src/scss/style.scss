@@ -1,0 +1,91 @@
+@charset 'UTF-8';
+
+/*
+ * basic
+------------------------------*/
+@import "./reset.scss";
+@import "./base.scss";
+
+
+/*
+ * atoms
+------------------------------*/
+@import "./atoms/footer";
+@import "./atoms/cart";
+@import "./atoms/h2";
+@import "./atoms/h4";
+@import "./atoms/button";
+@import "./atoms/slider";
+
+
+@import "./atoms/breadcrumb";
+@import "./atoms//pagination";
+@import "./atoms/form-input";
+@import "./atoms/common";
+@import "./atoms/sp_menu";
+@import "./atoms/sidebar";
+@import "./atoms/modal";
+@import "./atoms/map";
+
+/*
+ * parts
+------------------------------*/
+@import "./structures/header";
+@import "./structures/top_page";
+@import "./structures/user_form";
+@import "./structures/b_1_video_submission_form";
+@import "./structures/details";
+@import "./structures/news_pages";
+@import "./structures/offer_lists";
+@import "./structures/profile";
+@import "./structures/member_information";
+@import "./structures/video_list";
+@import "./structures/exhibition_offer_details";
+
+@import "./structures/payment_info";
+@import "./structures/pages";
+@import "./structures/service_introduction";
+
+.clearfix{
+  &::before{
+    content: '';
+    clear: both;
+    display: block;
+  }
+  &::after{
+    content: '';
+    clear: both;
+    display: block;
+  }
+}
+.container{
+  width: 94.145vw;
+  margin: 0 auto;
+  padding: 0;
+  .content-inner{
+    width: 100%;
+  }
+}
+html{
+  background-color: #0b1619;
+}
+body{
+  background-color: rgba(29, 33, 34, 0.9);
+  &.bg-color{
+    background-color: #1d2122;
+  }
+}
+
+@media screen and (max-width: 767px){
+  html{
+    background-color: #0b1619;
+  }
+  .container{
+    width: 100vw;
+    margin: 0 auto;
+    padding: 0 4vw;
+    .content-inner{
+      width: 100%;
+    }
+  }
+}

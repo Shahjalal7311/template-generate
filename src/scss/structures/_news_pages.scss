@@ -1,0 +1,269 @@
+.news-lists-wrapper{
+  .content{
+    .inner-content{
+      padding: 3.6075vw 3.6075vw 7.2150vw;
+    }
+    .news-lists{
+      .single-news{
+        display: flex;
+        align-items: center;
+        padding: 1.8759vw 0 1.8302vw;
+        border-top: 0.0732vw solid rgba(29, 33, 34, 0.15);
+        &:last-child{
+          border-bottom: 0.0732vw solid rgba(29, 33, 34, 0.15); 
+        }
+        .release-date{
+          width: 8.1580vw;
+          p{
+            font-family: 'Roboto';
+            font-size: 0.8053vw;
+            font-weight: 500;
+            letter-spacing:0.0242vw;
+            color: rgba(29, 33, 34, 0.8);
+            span{
+              font-family: 'Noto Sans JP';
+              font-size: 0.9517vw;
+              letter-spacing: 0.0205vw;
+            }
+          }
+        }
+        .text{
+          padding-left: 2.7086vw;
+          width: 100%;
+          p{
+            width: 100%;
+            font-size: 1.1544vw;
+            font-weight: 500;
+            line-height: 1.6;
+            letter-spacing: 0.0293vw;
+            text-align: left;
+            color: #1d2122;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+          }
+        }
+      }
+    }
+  }
+}
+
+/**
+* News Details scss
+**/
+.news-details-wrapper{
+  .content{
+    .inner-content{
+      padding: 3.6075vw 4.3290vw 3.6075vw;
+    }
+    .news-details{
+      .details-top{
+        .title{
+          margin: 0 0 1.0823vw;
+          h4{
+            font-size: 1.4430vw;
+            font-weight: bold;
+            text-align: left;
+            color: #1d2122;
+          }
+        }
+        .release-date{
+          margin-bottom: 2.2367vw;
+          p{
+            font-family: 'Roboto';
+            font-size: 0.9371vw;
+            font-weight: 500;
+            letter-spacing: 0.0239vw;
+            text-align: left;
+            color: rgba(29, 33, 34, 0.8);
+            .txt{
+              font-family: 'Noto Sans JP';
+              font-size: 0.7937vw;
+              letter-spacing: 0.0202vw;
+            }
+          }
+        }
+      }
+      .description{
+        p{
+          font-size: 1.0101vw;
+          font-weight: 500;
+          line-height: 1.6;
+          letter-spacing: 0.0252vw;
+          color: #1d2122;
+        }
+      }
+      .news-navi{
+        margin-top: 3.2468vw;
+        padding: 1.1545vw 0 0;
+        border-top: 0.0721vw solid #2b6737;
+        .ul{
+          display: inline-block;
+          width: 100%;
+          li{
+            &:nth-of-type(1){
+              float: left;
+              a{
+                position: relative;
+                display: flex;
+                align-items: center;
+                padding-left: 1.4430vw;
+                &::after{
+                  content: '';
+                  position: absolute;
+                  background: url(/images/arrow-prev.svg) no-repeat right 50%;
+                  height: 1.1545vw;
+                  width: 0.9379vw;
+                  left: 0;
+                  background-size: 0.9379vw 1.1545vw;
+                }
+              }
+            }
+            &:nth-of-type(2){
+              float: right;
+              a{
+                position: relative;
+                display: flex;
+                align-items: center;
+                padding-right: 1.4430vw;
+                &::after{
+                  content: '';
+                  position: absolute;
+                  background: url(/images/arrow-green.svg) no-repeat right 50%;
+                  height: 1.1545vw;
+                  width: 0.9379vw;
+                  right: 0;
+                  background-size: 0.9379vw 1.1545vw;
+                }
+              }
+            }
+            a{
+              font-size: 1.1544vw;
+              font-weight: bold;
+              letter-spacing: 0.4px;
+              color: #2b6737;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px){
+  .news-lists-wrapper{
+    .content{
+      .inner-content{
+        padding: 8vw 4vw 13.3333vw;
+      }
+      .news-lists{
+        padding: 0 4vw 8vw;
+        .single-news{
+          display: inline-block;
+          padding: 0 0 6.1333vw;
+          border-top: 0.2667vw solid rgba(29, 33, 34, 0.15);
+          &:last-child{
+            border-bottom: 0.2667vw solid rgba(29, 33, 34, 0.15); 
+          }
+          .release-date{
+            width: 100%;
+            padding: 5.3333vw 0 2.9334vw;
+            p{
+              font-size: 2.9333vw;
+              span{
+                font-size: 3.4667vw;
+              }
+            }
+          }
+          .text{
+            padding-left: 0;
+            width: 100%;
+            p{
+              width: 100%;
+              font-size: 4vw;
+              display: -webkit-box;
+              -webkit-line-clamp: 2;
+              -webkit-box-orient: vertical;
+              overflow: hidden;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  /**
+  * News Details sp scss
+  **/
+  .news-details-wrapper{
+    .content{
+      .inner-content{
+        padding: 8vw 4vw 13.3333vw;
+      }
+      .news-details{
+        .details-top{
+          .title{
+            margin: 0 0 4.2667vw;
+            h4{
+              font-size: 4.8vw;
+              line-height: 1.42;
+              letter-spacing: 0.12vw;
+            }
+          }
+          .release-date{
+            margin-bottom: 8vw;
+            p{
+              font-size: 3.4667vw;
+              .txt{
+                font-size: 2.9334vw;
+              }
+            }
+          }
+        }
+        .description{
+          p{
+            font-size: 3.7333vw;
+          }
+        }
+        .news-navi{
+          margin-top: 12vw;
+          padding: 4vw 0 0;
+          border-top: 0.2667vw solid #2b6737;
+          .ul{
+            display: inline-block;
+            width: 100%;
+            li{
+              display: flex;
+              justify-content: space-between;
+              &:nth-of-type(1){
+                a{
+                  padding-left: 9.0667vw;
+                  &::after{
+                    width: 3.4666vw;
+                    height: 4.2666vw;
+                    background-size: 3.4666vw 4.2666vw;
+                  }
+                }
+              }
+              &:nth-of-type(2){
+                a{
+                  padding-right: 9.0667vw;
+                  &::after{
+                    width: 3.4666vw;
+                    height: 4.2666vw;
+                    background-size: 3.4666vw 4.2666vw;
+                  }
+                }
+              }
+              a{
+                font-size: 4.2667vw;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+}

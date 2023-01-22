@@ -1,0 +1,311 @@
+.payment-information-wrapper{
+  .content{
+    .left_cont{
+      padding: 2.5253vw 2.8860vw 3.6075vw;
+      border-radius: 0.2165vw;
+      background-color: #c8cbc8;
+      .payment-information{
+        .form_area{
+          display: flex;
+          align-items: center;
+          margin-bottom: 1.4430vw;
+          .label_area{
+            width: 16%;
+            margin-right: 0.7316vw;
+            float: left;
+          }
+    
+          .form_group{
+            float: left;
+            width: 84%;
+            .payment-type{
+              display: flex;
+              align-items: center;
+              li{
+                float: left;
+                margin-right: 1.2987vw;
+              }
+            }
+            &.card_expiry_date{
+              display: flex;
+              align-items: center;
+              .width_40{
+                width: 4.2860vw;
+              }
+              .width_60{
+                width: 4.5290vw;
+              }
+              .inline-lavel{
+                padding-left: 0.5772vw;
+                padding-right: 0.9371vw;
+                font-size: 1.0823vw;
+                font-weight: 500;
+                line-height: 1.6;
+                letter-spacing: 0.0275vw;
+                color: #1d2122;
+              }
+            }
+            &.cvc{
+              display: flex;
+              align-items: center;
+              .width_89{
+                width: 6.4214vw;
+              }  
+              .info-text{
+                padding-left: 0.7215vw;
+                font-size: 1.0102;
+                font-weight: 500;
+                text-align: left;
+                line-height: 1.6;
+                letter-spacing: 0.0253;
+                color: #1d2122;
+              }
+            }
+          }
+        }
+      }
+    }
+    .sidebar_wrapper{
+      .sidebar-cont{
+        .edit-post{
+          border-bottom: 0.0722vw solid #2b6737;
+          padding-bottom: 1.4430vw;
+        }
+        .info-areas{
+          padding: 0.8658vw 1.4430vw 1.1544vw;
+          border-radius: 0.2165vw;
+          background-color: rgba(255, 255, 255, 0.9);
+          margin-top: 1.3709vw;
+          .video-info-areas{
+            .title{
+              padding-bottom: 0.6494vw;
+              font-size: 1.0823vw;
+              font-weight: bold;
+              line-height: 1.47;
+              letter-spacing: 0.0275vw;
+              color: #1d2122;
+            }
+            .video-info{
+              display: flex;
+              align-items: center;
+              margin: 0 0 0.6494vw;
+              .shoting-date{
+                margin-right: 0.7215vw;
+              }
+              .shoting-date, .location{
+                display: inherit;
+                .btn-sm{
+                  width: 2.5974vw;
+                  height: 1.443vw;
+                  padding: 0 0.2886vw 0.1443vw;
+                  margin-right: 0.4329vw;
+                  border-radius: 0;
+                  font-size: 0.7936vw;
+                  font-weight: 500;
+                  letter-spacing: .021vw;
+                  color: rgba(29, 33, 34, 0.8);
+                  border: solid 0.0722vw rgba(29, 33, 34, 0.3);
+                }
+                .date{
+                  font-size: 0.9371vw;
+                  font-weight: 500;
+                  letter-spacing: 0.33px;
+                  text-align: left;
+                  color: rgba(29, 33, 34, 0.8);
+                  span{
+                    font-family: 'Roboto';
+                    font-size: 0.7936vw;
+                  }
+                }
+              }
+            }
+          }
+          .location-text{
+            p{
+              font-size: 0.8658vw;
+              font-weight: 500;
+              letter-spacing: 0.0217vw;
+              text-align: left;
+              color: rgba(29, 33, 34, 0.8);
+            }
+          }
+          .info-details{
+            padding-top: 0.7937vw;
+            p{
+              font-family: 'Roboto';
+              font-size: 1.0101vw;
+              font-weight: 500;
+              color: #1d2122;
+            }
+          }
+        }
+        .video-map-thum-view{
+          display: flex;
+          align-items: center;
+          margin-top: 0.7215vw;
+          .thum-view{
+            width: 15.2958vw;
+            height: 10.3174vw;
+            border-radius: 0.2165vw;
+            margin-right: 0.2886vw;
+            .thum{
+              width: 100%;  
+              height: 100%;
+            }
+          }
+          .map-view{
+            width: 15.2958vw;
+            height: 10.3174vw;
+            border-radius: 0.2165vw;
+            .map{
+              width: 100%;  
+              height: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px){
+  .payment-information-wrapper{
+    .content{
+      .left_cont{
+        padding: 5.3333vw 4vw 13.3333vw;
+        border-radius: 0.8vw;
+        margin: 0 0 5.3333vw;
+        .payment-information{
+          .form_area{
+            display: inline-block;
+            width: 100%;
+            margin-bottom: 4.5333vw;
+            .label_area{
+              width: 100%;
+              margin: 0 0 2.9333vw;
+            }
+      
+            .form_group{
+              width: 100%;
+              .payment-type{
+                li{
+                  margin-right: 4.5333vw;
+                }
+              }
+              &.card_expiry_date{
+                display: flex;
+                align-items: center;
+                .width_40{
+                  width: 16vw;
+                }
+                .width_60{
+                  width: 16vw;
+                }
+                .inline-lavel{
+                  padding-left: 2.1333vw;
+                  padding-right: 3.4667vw;
+                  font-size: 4vw;
+                }
+              }
+              &.cvc{
+                display: inline-block;
+                .width_89{
+                  width: 20vw;
+                }  
+                .info-text{
+                  padding: 2.6667vw 0 0;
+                  font-size: 3.2;
+                }
+              }
+              .form-check{
+                .form-check-label{
+                  padding-left: 2.1333vw;
+                }
+              }
+            }
+          }
+        }
+      }
+      .sidebar_wrapper{
+        .sidebar-cont{
+          .edit-post{
+            border-bottom: 0.26667vw solid #2b6737;
+            padding-bottom: 5.3333vw;
+          }
+          .info-areas{
+            padding: 3.2vw 5.333vw 4vw;
+            border-radius: 0.8vw;
+            margin-top: 4vw;
+            .video-info-areas{
+              .title{
+                padding-bottom: 0.6494vw;
+                font-size: 4vw;
+              }
+              .video-info{
+                display: flex;
+                align-items: center;
+                margin: 0 0 0.6494vw;
+                .shoting-date{
+                  margin-right: 0.7215vw;
+                }
+                .shoting-date, .location{
+                  display: inherit;
+                  padding: 2.4vw 0 2.1333vw;
+                  .btn-sm{
+                    width: 8vw;
+                    height: 4.8vw;
+                    margin-right: 0.4329vw;
+                    font-size: 2.9333vw;
+                  }
+                  .date{
+                    font-size: 3.4666vw;
+                    span{
+                      font-size: 2.9333vw;
+                    }
+                  }
+                }
+              }
+            }
+            .location-text{
+              p{
+                display: flex;
+                align-items: center;
+                font-size: 3.2vw;
+                font-weight: 500;
+                letter-spacing: 0.0217vw;
+                text-align: left;
+                color: rgba(29, 33, 34, 0.8);
+                svg{
+                  margin-right: 1vw;
+                }
+              }
+            }
+            .info-details{
+              padding-top: 2.9333vw;
+              p{
+                font-size: 3.2vw;
+              }
+            }
+          }
+          .video-map-thum-view{
+            display: inline-block;
+            margin-top: 5.6vw;
+            .thum-view{
+              margin-bottom: 2.6667vw;
+            }
+            .thum-view, .map-view{
+              width: 100%;
+              height: 100%;
+              border-radius: 0.8vw;
+              margin-right: 0;
+              .thum{
+                width: 100%;  
+                height: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

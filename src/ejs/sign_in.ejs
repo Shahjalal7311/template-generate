@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <%- include('./shared/_head.ejs', { title: 'Top page' }) %>
+</head>
+<body class="bg-color">
+  <div class="canvas">
+
+    <%- include('./shared/_header.ejs', { title: '' }) %>
+    <!-- breadcrumb start  -->
+    <div class="breadcrumb-wrapper">
+      <div class="container">
+        <ul class="breadcrumb-ul">
+          <li>
+            <a href="/">Top</a>
+          </li>
+          <li>
+            <a href="">ログイン</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- breadcrumb start  -->
+    <div class="sign-in-wrapper content-body-bg">
+      <div class="container container-wrapper">
+        <div class="title-head">
+          <h2 class="h2">ログイン</h2>
+        </div>
+        <div class="content">
+          <div class="inner-content">
+            <form action="" class="form c-form-block">
+              <!-- 氏名 start-->
+              <div class="form_area">
+                <div class="label_area">
+                  <label class="label_txt mb_8">メールアドレス</label>
+                </div>
+                <div class="form_group">
+                  <div class="input_group">
+                    <input name="name" type="text" class="form-control" placeholder="例）sample@sample.com">
+                  </div>
+                </div>
+              </div>
+              <div class="form_area">
+                <div class="label_area">
+                  <label class="label_txt mb_8">パスワード</label>
+                </div>
+                <div class="form_group">
+                  <div class="input_group password_box">
+                    <input name="password" type="password" class="form-control password">
+                    <div class="icon">
+                      <i class="far fa-eye password_event"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="signin-button">
+                <button type="submit" class="btn btn-green">ログイン</button>
+              </div>
+              <div class="text-area">
+                <p>パスワードをお忘れの方は<a href="">こちら</a></p>
+              </div>
+            </form>
+            <div class="signin-link">
+              <a href="" class="btn btn-white icon">上記の内容で会員登録する</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <%- include('./shared/_footer.ejs', { title: '' }) %>
+    <%- include('./shared/_foot_js.ejs', { title: '' }) %>
+  </div>
+  </body>
+  
+</html>

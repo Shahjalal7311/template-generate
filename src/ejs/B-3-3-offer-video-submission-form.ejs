@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <%- include('./shared/_head.ejs', { title: 'B-3-3_オファー動画投稿フォーム' }) %>
+</head>
+<body class="bg-color">
+  <div class="canvas">
+
+    <%- include('./shared/_header.ejs', { title: '' }) %>
+    <!-- breadcrumb start  -->
+    <div class="breadcrumb-wrapper">
+      <div class="container">
+        <ul class="breadcrumb-ul">
+          <li>
+            <a href="/">Top</a>
+          </li>
+          <li>
+            <a href="">出品オファー</a>
+          </li>
+          <li>
+            <a href="">溜池交差点　外堀通り　西進してきた車両が六本木方面へと左折する際の追突事故</a>
+          </li>
+          <li>
+            <a href="">オファー動画投稿</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- breadcrumb start  -->
+    <div class="content-body-bg">
+      <div class="container container-wrapper">
+        <div class="video-submission-form">
+          <div class="title-head">
+            <h2 class="h2">オファー動画投稿</h2>
+          </div>
+          <div class="content">
+            <div class="inner-content">
+              <div class="video-offer-submission-top">
+                <div class="email-notify-message">
+                  <p>
+                    <span>このオファーの動画を投稿します。</span>
+                    <span>投稿完了後、依頼者にメールで通知します。</span>
+                  </p>
+                </div>
+                <div class="short-descrition">
+                  <div class="published-date">
+                    <p class="text">
+                      <span class="date-style">2021</span>年<span class="date-style">12</span>月<span class="date-style">28</span>日
+                    </p>
+                  </div>
+                  <div class="video-info-areas">
+                    <h4 class="title">溜池交差点　外堀通り　西進してきた車両が六本木方面へと左折する際の追突事故</h4>
+                    <div class="video-info">
+                      <div class="shoting-area">
+                        <button type="" class="btn btn-black width_108">撮影日</button>
+                        <p class="date">2021<span>年</span>12<span>月</span>28<span>日</span></p>
+                      </div>
+                      <div class="location">
+                        <button type="" class="btn btn-black width_108">ロケーション</button>
+                        <p class="date">港区赤坂<span>2</span>丁目<span>2</span>番<span>12</span>号 六本木通り</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <form action="" class="form c-form-block">
+
+                <div class="infomation-group">
+                  <div class="form-area">
+                    <div class="left">
+                      <p class="label">動画アップロード</p>
+                    </div>
+                    <div class="right">
+                      <label class="label" for="">動画データ</label>
+                      <div class="upload-area">
+                        <div class="upload-text">
+                          <img class="img" src="/images/upload-icon.svg" alt="upload">
+                          <p class="txt">
+                            <span class="line-break">動画ファイルを選択</span>
+                            <span class="line-break pc-only">または、ここにドラッグ&ドロップしてください</span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="infomation-group">
+                  <!-- video info start -->
+                  <div class="form-area">
+                    <div class="left">
+                      <p class="label">動画情報</p>
+                    </div>
+                    <div class="right">
+                      <!-- タイトル start -->
+                      <div class="inner-group">
+                        <label class="label" for="">タイトル</label>
+                        <div class="form_group">
+                          <div class="input_group">
+                            <input name="name" type="text" class="form-control" placeholder="例）銀座四丁目交差点交差点付近の衝突事故">
+                            <div class="char-number">0/50</div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- タイトル start -->
+                      <div class="inner-group">
+                        <label class="label" for="">タイトル</label>
+                        <div class="form_group shooting-date">
+                          <div class="input_group font_roboto width_88">
+                            <input name="year" type="text" class="form-control" placeholder="0000">
+                          </div>
+                          <span class="text">年</span>
+                          <div class="input_group font_roboto width_63">
+                            <input name="month" type="text" class="form-control" placeholder="00">
+                          </div>
+                          <span class="text">月</span>
+                          <div class="input_group font_roboto width_63">
+                            <input name="day" type="text" class="form-control" placeholder="00">
+                          </div>
+                          <span class="text">日</span>
+                        </div>
+                      </div>
+                      <!-- 価格 start -->
+                      <div class="inner-group">
+                        <label class="label" for="">価格<span class="icon"></span></label>
+                        <div class="form_group price">
+                          <div class="input_group font_roboto">
+                            <input name="price" type="text" class="form-control" placeholder="50,000">
+                          </div>
+                          <span class="text">円（税込）</span>
+                        </div>
+                      </div>
+
+                      <div class="inner-group">
+                        <label class="label" for="">説明文</label>
+                        <div class="form_group">
+                          <div class="input_group">
+                            <textarea name="descirption" rows="6" type="text" class="form-control"></textarea>
+                            <div class="char-number">0/1,000</div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                  <!-- video info end -->
+                </div>
+                <div class="infomation-group">
+                  <!-- map pin info start -->
+                  <div class="form-area">
+                    <div class="left">
+                      <p class="label">撮影場所</p>
+                    </div>
+                    <div class="right">
+                      <!-- 都道府県 start -->
+                      <div class="inner-group">
+                        <label class="label" for="">都道府県</label>
+                        <div class="form_group">
+                          <div class="input_group select-container full_width">
+                            <select name="" class="form-control">
+                              <option selected>選択してください</option>
+                              <option value="">2021</option>
+                              <option value="1">2020</option>
+                              <option value="2">2019</option>
+                              <option value="3">2018</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="inner-group">
+                        <label class="label" for="">以降の住所</label>
+                        <div class="form_group">
+                          <div class="input_group prefecture">
+                            <input name="descirption" type="text" class="form-control" placeholder="中央区銀座4丁目">
+                          </div>
+                        </div>
+                        <div class="map-pin-button">
+                          <button type="submit" class="btn btn-green icon-down">地図に反映させる</button>
+                          <p class="map-text">
+                            撮影した場所をクリックし、ピンを表示させてください。
+                          </p>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class="map">
+                    <iframe class="iframe" id="gmap_canvas" src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                  </div>
+                </div><!-- map info end -->
+                <div class="button-group">
+                  <button type="submit" value="save" class="btn btn-green">動画を投稿する</button>
+                  <button type="submit" value="draft" class="btn btn-green">下書き保存する</button>
+                  <p class="text-nb">下書きはメニューの「マイページ＞下書き一覧」から編集できます</p>
+                  <button type="submit" value="cancle" class="btn btn-white">キャンセル</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <%- include('./shared/_footer.ejs', { title: '' }) %>
+    <%- include('./shared/_foot_js.ejs', { title: '' }) %>
+  </div>
+  </body>
+</html>

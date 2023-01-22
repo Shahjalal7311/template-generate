@@ -1,0 +1,149 @@
+.signle-item{
+  width: 21.89vw;
+  border-radius: 0.22vw;
+  overflow: hidden;
+  margin-bottom: 2.196vw;
+  .card-wrapper{
+    .img{
+      width: inherit;
+      a{
+        position: relative;
+        display: block;
+        img{
+          width: 21.89vw;
+          height: 12.299vw;
+        }
+        &:hover{
+          opacity: .7;
+        }
+      }
+    }
+    .card-body{
+      padding: 0.586vw 0.88vw 1.098vw;
+      background-color: rgba(255, 255, 255, 0.9);
+      .card-top{
+        .title{
+          font-family: 'Noto Sans JP';
+          font-size: 1.098vw;
+          font-weight: bold;
+          line-height: 1.71;
+          letter-spacing: 0.028vw;
+          text-align: left;
+          color: #1d2122;
+          width: 100%;
+          display: -webkit-box;
+          -webkit-line-clamp: 1;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+          a{
+            color: #1d2122;
+            &:hover{
+              opacity: 0.6;
+              transition: opacity .6s;
+              -webkit-transition: opacity .6s;
+              -moz-transition: opacity .6s;
+              -ms-transition: opacity .6s;
+              -o-transition: opacity .6s;
+            }
+          }
+        }
+      }
+      .card-footer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 0.732vw;
+        .photograph-date, .release-date{
+          display: flex;
+          align-items: center;
+          gap: 5;
+          .btn-sm{
+            width: 2.18vw;
+            height: 1.32vw;
+            padding: 0.147vw 0 0.23vw;
+            margin-right: 0.37vw;
+            line-height: 0;
+            border-radius: 0;
+            border: solid 0.073vw rgba(29, 33, 34, 0.3);
+            font-family: 'Noto Sans JP';
+            font-size: 0.81vw;
+            font-weight: 500;
+            letter-spacing: 0.021vw;
+            text-align: center;
+            color: rgba(29, 33, 34, 0.8);
+          }
+          .text{
+            font-family: 'Roboto';
+            font-size: 0.81vw;
+            font-weight: 500;
+            letter-spacing: 0.0242vw;
+            text-align: left;
+            color: rgba(29, 33, 34, 0.8);
+            .date-style{
+              font-family: 'Noto Sans JP';
+              font-size: 0.952vw;
+              letter-spacing: 0.021vw;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px){
+  .signle-item{
+    width: 92vw;
+    border-radius: 0.8vw;
+    margin-bottom: 2.196vw;
+    .card-wrapper{
+      .img{
+        a{
+          img{
+            width: 92vw;
+            height: 51.4667vw;
+          }
+        }
+      }
+      .card-body{
+        padding: 1.8667vw 5.8667vw 3.4667vw 3.2vw;
+        .card-top{
+          .title{
+            font-size: 4.2667vw;
+            line-height: 1.6;
+            letter-spacing: 0.1067vw;
+          }
+        }
+        .card-footer{
+          justify-content:unset;
+          margin-top: 1.8667vw;
+          height: 5.0666vw;
+          .photograph-date{
+            margin-right: 3.7334vw;
+          }
+          .photograph-date, .release-date{
+            display: flex;
+            align-items: center;
+            gap: 5;
+            .btn-sm{
+              width: 8.5334vw;
+              height: 5.3667vw;
+              margin-right: 1.3334vw;
+              border: solid 0.073vw rgba(29, 33, 34, 0.3);
+              font-size: 3.2vw;
+              letter-spacing: 0.021vw;
+            }
+            .text{
+              font-size: 3.2vw;
+              letter-spacing: 0.0934vw;
+              .date-style{
+                font-size: 3.7334vw;
+                letter-spacing: 0.0791vw;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

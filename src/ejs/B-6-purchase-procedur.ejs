@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <%- include('./shared/_head.ejs', { title: 'B-6_購入手続き' }) %>
+</head>
+<body class="bg-color">
+  <div class="canvas">
+    <%- include('./shared/_header.ejs', { title: '' }) %>
+    <!-- breadcrumb start  -->
+    <div class="breadcrumb-wrapper">
+      <div class="container">
+        <ul class="breadcrumb-ul">
+          <li>
+            <a href="/">Top</a>
+          </li>
+          <li>
+            <a href="">銀座4丁目あおり運転による交差点の接触事故の映像</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- breadcrumb start  -->
+    <div class="content-body-bg">
+      <div class="container container-wrapper">
+        <div class="video-details">
+          <div class="title-head">
+            <h2 class="h2">動画投稿</h2>
+          </div>
+          <div class="content">
+            <div class="left_cont">
+              <div class="video-details__cont">
+                <div class="video-thum">
+                  <img src="/images/video-thum.png" alt="video">
+                </div>
+                <div class="shooting-date">
+                  <div class="photograph-date">
+                    <button class="btn btn-sm" type="">撮影</button>
+                    <p class="text">
+                      <span class="date-style">2021</span>年<span class="date-style">12</span>月<span class="date-style">28</span>日
+                    </p>
+                  </div>
+                  <div class="release-date">
+                    <button class="btn btn-sm">公開</button>
+                    <p class="text">
+                      <span class="date-style">2022</span>年<span class="date-style">06</span>月<span class="date-style">12</span>日
+                    </p>
+                  </div>
+                </div>
+                <div class="description">
+                  <h4 class="title">銀座4丁目あおり運転による交差点の接触事故の映像</h4>
+                  <p class="details">
+                    説明文が入ります。説明文が入ります。説明文が入ります。説明文が入ります。説明文が入ります。説明文が入ります。説明文が入ります。説明文が入ります。説明文が入ります。説明文が入ります。説明文が入ります。説明文が入ります。説明文が入ります。説明文が入ります。説明文が入ります。説明文が入ります。説明文が入ります。説明文が入ります。説明文が入ります。説明文が入ります。説明文が入ります。説明文が入ります。説明文が入ります。説明文が入ります。説明文が入ります。説明文が入ります。説明文が入ります。説明文が入ります。説明文が入ります。説明文が入ります。
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="sidebar_wrapper bg_gray">
+              <div class="video-details__sidebar-cont">
+                <div class="price">
+                  <span class="number">50,000</span>
+                  <span class="currency">円</span><span class="with-tax">（税込）</span>
+                </div>
+                <div class="edit-post">
+                  <a href="" class="btn btn-green icon">投稿を編集する</a>
+                </div>
+                <div class="movie-info">
+                  <p>
+                    1920<span class="text-style"> × </span>1080ピクセル / MOV / 72.8MB
+                  </p>
+                </div>
+                <div class="map-point">
+                  <img class="map" src="/images/map-thum.png" alt="map">
+                </div>
+                <div class="text-area">
+                  <p class="txt">東京都中央区銀座<span class="font_roboto">4</span>丁目<span class="font_roboto">1番</span>地2号</p>
+                  <p class="link">
+                    <a href="" target="_blank">拡大地図で見る</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <%- include('./shared/_footer.ejs', { title: '' }) %>
+    <%- include('./shared/_foot_js.ejs', { title: '' }) %>
+    <div class="purchase-video-modal">
+      <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="purchase-video-modal">
+        <div class="modal-dialog modal-lg modal-xlg">
+          <div class="modal-content">
+            <div class="modal-close"></div>
+            <div class="modal-body">
+              <div class="text">
+                <p>この動画を購入しますか？</p>
+              </div>
+              <div class="modal-button-area">
+                <button type="submit" class="btn btn-white width_280">キャンセル</button>
+                <button type="submit" class="btn btn-green width_280">決済情報入力へ進む</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="backdrop_modal modal-backdrop fade in"></div>
+  </div>
+  </body>
+</html>

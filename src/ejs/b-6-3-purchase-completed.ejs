@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <%- include('./shared/_head.ejs', { title: 'A-3-2_リセットメール送信完了' }) %>
+</head>
+<body class="bg-color">
+  <div class="canvas">
+
+    <%- include('./shared/_header.ejs', { title: '' }) %>
+    <!-- breadcrumb start  -->
+    <div class="breadcrumb-wrapper">
+      <div class="container">
+        <ul class="breadcrumb-ul">
+          <li>
+            <a href="/">Top</a>
+          </li>
+          <li>
+            <a href="">銀座4丁目あおり運転による交差点の接触事故の映像</a>
+          </li>
+          <li>
+            <a href="">購入完了</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- breadcrumb start  -->
+    <div class="email-confirmation-wrapper content-body-bg">
+      <div class="container container-wrapper">
+        <div class="title-head">
+          <h2 class="h2">パスワード再設定</h2>
+        </div>
+        <div class="content">
+          <div class="inner-content">
+            <div class="cont-area">
+              <h3 class="c-title">ご購入ありがとうございます！</h3>
+              <p class="text">
+                <span>下のボタンから、動画をご確認ください。</span>
+                <span>動画詳細ページで視聴とダウンロードが可能です。</span>
+              </p>
+            </div>
+            <div class="button">
+              <a class="btn btn-green icon" href="">購入動画一覧ページ</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <%- include('./shared/_footer.ejs', { title: '' }) %>
+    <%- include('./shared/_foot_js.ejs', { title: '' }) %>
+  </div>
+  </body>
+</html>

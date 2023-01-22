@@ -1,0 +1,186 @@
+.exhibition-offer-details {
+  .content {
+    .left_cont {
+      padding: 1.8037vw 2.886vw 3.6797vw;
+      border-radius: 0.2165vw;
+      background-color: #c8cbc8;
+
+      .exhibition-cont {
+        .map-thum {
+          width: 48.9177vw;
+          height: 21.7172vw;
+
+          img {
+            width: 100%;
+          }
+        }
+
+        .release-date {
+          margin: 1.4431vw 0 0;
+
+          .text {
+            font-family: 'Roboto';
+            font-size: 0.7937vw;
+            letter-spacing: 0.0238vw;
+            text-align: left;
+            color: #1d2122;
+
+            .date-style {
+              font-size: 0.9371vw;
+              font-family: 'Noto Sans JP';
+            }
+          }
+        }
+
+        .title {
+          margin: 0.4329vw 0 1.2266vw;
+
+          h3 {
+            font-size: 1.7316vw;
+            font-weight: bold;
+            text-align: left;
+            color: #1d2122;
+          }
+        }
+
+        .width_108 {
+          width: 7.7922vw;
+          height: 2.1645vw;
+          font-size: 0.9379vw;
+        }
+
+        .shoting-area {
+          margin-bottom: 0.4329vw;
+          display: flex;
+          align-items: center;
+
+          .date {
+            margin-left: 0.8658vw;
+            font-family: 'Roboto';
+            font-size: 1.2987vw;
+            font-weight: 500;
+            line-height: 1.5;
+            text-align: left;
+            color: #1d2122;
+
+            span {
+              font-family: 'Noto Sans JP';
+              font-weight: normal;
+            }
+          }
+        }
+
+        .location {
+          display: flex;
+          align-items: center;
+
+          .date {
+            margin-left: 0.8658vw;
+            font-size: 1.2987vw;
+            font-weight: 500;
+            text-align: left;
+            line-height: 1.5;
+            color: #1d2122;
+
+            span {
+              font-family: 'Roboto';
+              font-weight: normal;
+            }
+          }
+        }
+
+        .description {
+          margin: 1.4431vw 0 0;
+
+          .details {
+            font-size: 1.0823vw;
+            font-weight: 500;
+            line-height: 1.6;
+            letter-spacing: 0.0275vw;
+            text-align: left;
+            color: #1d2122;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .exhibition-offer-details{
+    .content{
+      display: flex;
+      flex-direction: column;
+      .left_cont {
+        order: 2;
+        padding: 5.3333vw 4vw 13.334vw;
+        border-radius: 0.8vw;
+  
+        .exhibition-cont {
+          .map-thum {
+            width: 84vw;
+            height: 64vw;
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+  
+          .release-date {
+            margin: 1.4431vw 0 0;
+
+            .text {
+              font-size: 2.9334vw;
+              .date-style {
+                font-size: 3.4667vw;
+              }
+            }
+          }
+  
+          .title {
+            margin: 1.6vw 0 2.6666vw;
+            h3 {
+              font-size: 4.8vw;
+            }
+          }
+  
+          .width_108 {
+            width: 23.7334vw;
+            height: 6.6667vw;
+            font-size: 2.9334vw;
+          }
+  
+          .shoting-area {
+            margin-bottom: 1.0667vw;
+            .date {
+              width: 57.5991vw;
+              margin-left: 2.6667vw;
+              font-size: 4vw;
+            }
+          }
+  
+          .location {
+            align-items: flex-start;
+            .date {
+              width: 57.5991vw;
+              margin-left: 2.6667vw;
+              font-size: 4vw;
+            }
+          }
+  
+          .description {
+            margin: 5.6vw 0 0;
+            .details {
+              font-size: 3.7333vw;
+            }
+          }
+        }
+      }
+      .sidebar_wrapper {
+        order: 1;
+        padding: 0;
+        margin: 0;
+      }
+    }
+  }
+}

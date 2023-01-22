@@ -1,0 +1,27 @@
+.h4{
+  display: flex;
+  align-items: center;
+  font-family: 'Noto Sans JP';
+  font-size: 1.2vw;
+  font-weight: bold;
+  letter-spacing: 0.03vw;
+  text-align: right;
+  color: #fff;
+  .icon{
+    margin-left: 1.47vw;
+    width: 0.953vw;
+    height: 1.172vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .h4{
+    font-size: 4.2667vw;
+    letter-spacing: 0.1067vw;
+    .icon{
+      margin-left: 5.3334vw;
+      width: 3.4667vw;
+      height: 4.2667vw;
+    }
+  }
+}

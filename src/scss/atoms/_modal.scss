@@ -1,0 +1,175 @@
+.modal-open {
+  overflow: hidden;
+  width: 100%;
+}
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1050;
+  display: block;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+  outline: 0;
+  .fade .modal-dialog {
+    -webkit-transform: translate(0, -25%);
+    -ms-transform: translate(0, -25%);
+    -o-transform: translate(0, -25%);
+    transform: translate(0, -25%);
+    -webkit-transition: -webkit-transform .3s ease-out;
+    -o-transition: -o-transform .3s ease-out;
+    transition: -webkit-transform .3s ease-out;
+    transition: transform .3s ease-out;
+    transition: transform .3s ease-out, -webkit-transform .3s ease-out, -o-transform .3s ease-out;
+  }
+}
+
+.in .modal-dialog {
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+.modal-open .modal {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.modal-dialog {
+  position: relative;
+  width: auto;
+  margin: 0.7215vw;
+}
+
+// Modal background
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040;
+  background-color: #000;
+
+  // Fade for backdrop
+  &.fade {
+    opacity: 0;
+    -webkit-transition: opacity .15s linear;
+    -o-transition: opacity .15s linear;
+    transition: opacity .15s linear;
+  }
+
+  &.in {
+    opacity: .5;
+  }
+}
+
+.modal-scrollbar-measure {
+  position: absolute;
+  top: -721.4285vw;
+  width: 3.6075vw;
+  height: 3.6075vw;
+  overflow: scroll;
+}
+
+
+.purchase-video-modal {
+  .modal-xlg {
+    width: 53.0303vw;
+    margin: 18.3261vw 19.8413vw 6.8543vw 19.9134vw;
+    .modal-content {
+      position: relative;
+      padding: 4.3290vw 5.5556vw 5.0505vw 5.6277vw;
+      border-radius: 0.3608vw;
+      box-shadow: 0 0 2.1645 0 rgba(0, 0, 0, 0.3);
+      background-color: #fff;
+      .modal-close{
+        position: absolute;
+        top: -1.3vw;
+        right: -0.91vw;
+        background: url(/images/modal-close.svg);
+        height: 3.1088vw;
+        width: 3.1088vw;
+        background-size: 3.1088vw 3.1088vw;
+        cursor: pointer;
+      }
+      .modal-body {
+        padding: 0;
+        .text {
+          margin: 0 0 3.6075vw;
+          p {
+            font-size: 1.443vw;
+            font-weight: bold;
+            text-align: center;
+            color: #1d2122;
+          }
+        }
+
+        .modal-button-area {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          .width_280{
+            width: 20.2020vw;
+            height: 4.1847vw;
+            &.btn-white{
+              margin-right: 1.4431vw;
+            }
+            &.btn-green{
+              &:hover{
+                color: #2b6737;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px){
+  .purchase-video-modal {
+    .modal-xlg {
+      width: 92vw;
+      margin: 64vw 4vw 0;
+      .modal-content {
+        position: relative;
+        border-radius: 1.3333vw;
+        padding: 16vw 8.7999vw 13.333vw;
+        .modal-close{
+          position: absolute;
+          top: -5.6vw;
+          right: -4.2vw;
+          background: url(/images/modal-close.svg);
+          height: 13.0667vw;
+          width: 13.0667vw;
+          background-size: 13.0667vw 13.0667vw;
+          cursor: pointer;
+        }
+        .modal-body {
+          padding: 0;
+          .text {
+            margin: 0 0 13.3333vw;
+            p {
+              font-size: 5.3333vw;
+            }
+          }
+  
+          .modal-button-area {
+            flex-direction: column;
+            .width_280{
+              width: 74.6666vw;
+              height: 15.4666vw;
+              &.btn-white{
+                margin: 5.3333vw 0 0;
+                order: 1;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
